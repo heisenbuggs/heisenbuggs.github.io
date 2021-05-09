@@ -79,12 +79,6 @@
   }
 }
 
-@media (max-width: 494px) {
-  .home-platforms-social-links li:nth-child(6) {
-    visibility: hidden;
-  }
-}
-
 .myAvtar {
   margin-top: -20px;
   padding-top: 0em;
