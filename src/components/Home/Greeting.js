@@ -9,7 +9,7 @@ const TEXTS = [
   "Ciao!!",
   "Bonjour!!",
   "Hallo!!",
-  "வணக்கம் அங்கே!!",
+  "வணக்கம்!!",
 ];
 
 const Greeting = () => {
