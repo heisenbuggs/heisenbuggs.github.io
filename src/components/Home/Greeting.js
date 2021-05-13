@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import TextTransition, { presets } from "react-text-transition";
 
 const TEXTS = [
@@ -13,7 +13,7 @@ const TEXTS = [
 ];
 
 const Greeting = () => {
-  const [index, setIndex] = React.useState(0);
+  const [index, setIndex] = useState(0);
 
   useEffect(() => {
     const intervalId = setInterval(
@@ -27,7 +27,7 @@ const Greeting = () => {
     <h1 style={{ paddingBottom: 15 }} className="heading">
       <TextTransition
         text={TEXTS[index % TEXTS.length]}
-        springConfig={presets.molasses}
+        springConfig={presets.gentle}
       />
     </h1>
   );
