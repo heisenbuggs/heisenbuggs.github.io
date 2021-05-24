@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.d408d811.chunk.css",
-    "main.js": "/static/js/main.885d8d48.chunk.js",
-    "main.js.map": "/static/js/main.885d8d48.chunk.js.map",
+    "main.js": "/static/js/main.039641f0.chunk.js",
+    "main.js.map": "/static/js/main.039641f0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bfb77f52.js",
     "runtime-main.js.map": "/static/js/runtime-main.bfb77f52.js.map",
     "static/css/2.150d169a.chunk.css": "/static/css/2.150d169a.chunk.css",
@@ -17,12 +17,13 @@
     "static/media/Coursera.b9e0c5f9.png": "/static/media/Coursera.b9e0c5f9.png",
     "static/media/Face2.f27dd0b7.png": "/static/media/Face2.f27dd0b7.png",
     "static/media/Gfg.92d51c12.png": "/static/media/Gfg.92d51c12.png",
-    "static/media/Resume_PrasukJain.d9378a2d.pdf": "/static/media/Resume_PrasukJain.d9378a2d.pdf",
+    "static/media/Resume_PrasukJain.16d46748.pdf": "/static/media/Resume_PrasukJain.16d46748.pdf",
     "static/media/about.aee0f771.png": "/static/media/about.aee0f771.png",
     "static/media/codeditor.584b47d4.jpg": "/static/media/codeditor.584b47d4.jpg",
     "static/media/full-logo.8e48924a.png": "/static/media/full-logo.8e48924a.png",
     "static/media/heart_shape.f4816c41.png": "/static/media/heart_shape.f4816c41.png",
     "static/media/Home.css": "/static/media/home-bg.dc52d5d4.jpg",
+    "static/media/linkedin.8f6bc614.jpg": "/static/media/linkedin.8f6bc614.jpg",
     "static/media/main.2dd9ead5.png": "/static/media/main.2dd9ead5.png",
     "static/media/PreLoader.css": "/static/media/pre.d4812f51.svg"
   },
@@ -31,6 +32,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.c3caa82a.chunk.js",
     "static/css/main.d408d811.chunk.css",
-    "static/js/main.885d8d48.chunk.js"
+    "static/js/main.039641f0.chunk.js"
   ]
 }
