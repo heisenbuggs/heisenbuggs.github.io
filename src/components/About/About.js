@@ -86,7 +86,10 @@ const About = () => {
               iconName="devicon-flutter-plain"
               hoverIcon="devicon-flutter-plain"
             /> */}
-            <Techstack iconName="devicon-django-plain" />
+            <Techstack
+              iconName="devicon-django-plain"
+              hoverIcon="devicon-django-line"
+            />
             <Techstack
               iconName="devicon-bootstrap-plain"
               hoverIcon="devicon-bootstrap-plain-wordmark"
@@ -116,7 +119,10 @@ const About = () => {
               iconName="devicon-git-plain"
               hoverIcon="devicon-git-plain-wordmark"
             />
-            <Techstack iconName="cib-visual-studio-code" />
+            <Techstack
+              iconName="devicon-vscode-plain"
+              hoverIcon="devicon-vscode-plain-wordmark"
+            />
             <Techstack
               iconName="devicon-github-original"
               hoverIcon="devicon-github-original-wordmark"
