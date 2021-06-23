@@ -11,11 +11,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/Navbar.css";
 import "../styles/HamBurger.css";
 import Hamburger from "./Hamburger";
-import { useEffect } from "react";
 
 const NavBar = () => {
   const [expand, updateExpanded] = useState(false);
-  const [open, setOpen] = useState(false);
   const [navColour, updateNavbar] = useState(false);
 
   const scrollHandler = () => {
@@ -47,7 +45,7 @@ const NavBar = () => {
             updateExpanded(!expand);
           }}
         >
-          <Hamburger expand={expand} open={open}/>
+          <Hamburger expand={expand} />
         </NavbarToggle>
         <NavbarCollapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">

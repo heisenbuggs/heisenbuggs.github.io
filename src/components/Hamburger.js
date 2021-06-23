@@ -19,15 +19,15 @@ const Hamburger = (props) => {
       setAria(false);
     }
   };
-
+  
   useEffect(() => {
     toggle();
-  }, []);
+  }, [expand]);
 
   return (
     <button
       className={buttonClass}
-      onClick={toggle}
+      onClick={() => (!expand ? toggle : null)}
       aria-label="Main Menu"
       aria-expanded={aria}
     >
