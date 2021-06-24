@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.fc95e1a5.chunk.css",
-    "main.js": "/static/js/main.8feb07a4.chunk.js",
-    "main.js.map": "/static/js/main.8feb07a4.chunk.js.map",
+    "main.css": "/static/css/main.b9a08f8e.chunk.css",
+    "main.js": "/static/js/main.c7d25826.chunk.js",
+    "main.js.map": "/static/js/main.c7d25826.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2483bc25.js",
     "runtime-main.js.map": "/static/js/runtime-main.2483bc25.js.map",
     "static/css/2.150d169a.chunk.css": "/static/css/2.150d169a.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.dc31ec90.chunk.js.map": "/static/js/3.dc31ec90.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.150d169a.chunk.css.map": "/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.fc95e1a5.chunk.css.map": "/static/css/main.fc95e1a5.chunk.css.map",
+    "static/css/main.b9a08f8e.chunk.css.map": "/static/css/main.b9a08f8e.chunk.css.map",
     "static/js/2.062c3bba.chunk.js.LICENSE.txt": "/static/js/2.062c3bba.chunk.js.LICENSE.txt",
     "static/media/Coursera.b9e0c5f9.png": "/static/media/Coursera.b9e0c5f9.png",
     "static/media/Face2.f27dd0b7.png": "/static/media/Face2.f27dd0b7.png",
@@ -24,13 +24,14 @@
     "static/media/Home.css": "/static/media/home-bg.dc52d5d4.jpg",
     "static/media/linkedin.8f6bc614.jpg": "/static/media/linkedin.8f6bc614.jpg",
     "static/media/main.2dd9ead5.png": "/static/media/main.2dd9ead5.png",
-    "static/media/quizify.b757d073.png": "/static/media/quizify.b757d073.png"
+    "static/media/quizify.b757d073.png": "/static/media/quizify.b757d073.png",
+    "static/media/tick.a830ac2f.mp3": "/static/media/tick.a830ac2f.mp3"
   },
   "entrypoints": [
     "static/js/runtime-main.2483bc25.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.062c3bba.chunk.js",
-    "static/css/main.fc95e1a5.chunk.css",
-    "static/js/main.8feb07a4.chunk.js"
+    "static/css/main.b9a08f8e.chunk.css",
+    "static/js/main.c7d25826.chunk.js"
   ]
 }
