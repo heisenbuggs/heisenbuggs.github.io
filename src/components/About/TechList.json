@@ -48,11 +48,6 @@
       "hoverIcon": "devicon-nextjs-original-wordmark"
     },
     {
-      "name": "React",
-      "iconName": "devicon-react-original",
-      "hoverIcon": "devicon-react-original-wordmark"
-    },
-    {
       "name": "Node.js",
       "iconName": "devicon-nodejs-plain",
       "hoverIcon": "devicon-nodejs-plain-wordmark"
