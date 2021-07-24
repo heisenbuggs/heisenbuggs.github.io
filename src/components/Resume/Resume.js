@@ -18,7 +18,12 @@ const Resume = () => {
         <Particle />
         <Container>
           <Row style={{ justifyContent: "center", position: "relative" }}>
-            <Button variant="primary" href={pdf} target="_blank">
+            <Button
+              variant="primary"
+              href={pdf}
+              target="_blank"
+              className="download-btn"
+            >
               <i className="fas fa-download">&nbsp;</i>Download Resume
             </Button>
           </Row>
@@ -83,7 +88,12 @@ const Resume = () => {
             </Col>
           </Row>
           <Row style={{ justifyContent: "center", position: "relative" }}>
-            <Button variant="primary" href={pdf} target="_blank">
+            <Button
+              variant="primary"
+              href={pdf}
+              target="_blank"
+              className="download-btn"
+            >
               <i className="fas fa-download">&nbsp;</i>Download Resume
             </Button>
           </Row>
