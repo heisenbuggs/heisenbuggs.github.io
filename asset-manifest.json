@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.15e42f9d.chunk.css",
-    "main.js": "/static/js/main.dd77632b.chunk.js",
-    "main.js.map": "/static/js/main.dd77632b.chunk.js.map",
+    "main.js": "/static/js/main.9e44247b.chunk.js",
+    "main.js.map": "/static/js/main.9e44247b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ec05d67f.js",
     "runtime-main.js.map": "/static/js/runtime-main.ec05d67f.js.map",
     "static/css/2.150d169a.chunk.css": "/static/css/2.150d169a.chunk.css",
@@ -17,7 +17,7 @@
     "static/media/Coursera.b9e0c5f9.png": "/static/media/Coursera.b9e0c5f9.png",
     "static/media/Face2.f27dd0b7.png": "/static/media/Face2.f27dd0b7.png",
     "static/media/Gfg.92d51c12.png": "/static/media/Gfg.92d51c12.png",
-    "static/media/Resume_PrasukJain.03827d87.pdf": "/static/media/Resume_PrasukJain.03827d87.pdf",
+    "static/media/Resume_PrasukJain.142e3621.pdf": "/static/media/Resume_PrasukJain.142e3621.pdf",
     "static/media/about.aee0f771.png": "/static/media/about.aee0f771.png",
     "static/media/codeditor.584b47d4.jpg": "/static/media/codeditor.584b47d4.jpg",
     "static/media/heart_shape.f4816c41.png": "/static/media/heart_shape.f4816c41.png",
@@ -32,6 +32,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.2dcaaac5.chunk.js",
     "static/css/main.15e42f9d.chunk.css",
-    "static/js/main.dd77632b.chunk.js"
+    "static/js/main.9e44247b.chunk.js"
   ]
 }
