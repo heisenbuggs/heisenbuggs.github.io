@@ -1,16 +1,23 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "../../styles/Home.css";
-import homeLogo from "../../assets/main.png";
-import Particle from "../Particle";
-import Animate from "react-smooth";
-import Particles from "react-particles-js";
-import particles from "../LineParticle";
-import HomeTwo from "./HomeTwo";
-import Type from "./Type";
-import Platforms from "./Platforms";
-import Greeting from "./Greeting";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './Home.css';
+
+import React from 'react';
+
+import {
+  Col,
+  Container,
+  Row,
+} from 'react-bootstrap';
+import Particles from 'react-particles-js';
+import Animate from 'react-smooth';
+
+import homeLogo from '../../assets/main.png';
+import Greeting from '../../components/GreetingComponent';
+import particles from '../../components/LineParticle.js';
+import particleParams from '../../components/Particle';
+import Type from '../../components/TypewriterComponent';
+import HomeTwo from './HomeTwo';
+import Platforms from './Platforms';
 
 const Home = () => {
   return (
@@ -18,7 +25,7 @@ const Home = () => {
       <Animate to="1" from="0" attributeName="opacity">
         <Particles params={particles} className="particle" />
         <Container fluid className="home-section">
-          <Particle />
+          <Particles params={particleParams}/>
           <Container className="home-content">
             <Row>
               <Col lg={7} className="home-header">

@@ -1,16 +1,19 @@
-import React, { useState } from "react";
-import "../styles/PreLoader.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import Loader from "react-loader-spinner";
+import './Loader.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-const Pre = (props) => {
-  const [loader, setLoader] = useState(props.load);
+import React, { useState } from 'react';
+
+import Loader from 'react-loader-spinner';
+
+const CustomLoader = ({ load }) => {
+  const [loader, setLoader] = useState(load);
   // Total time of loading screen is sum of both timeouts.
   const close = () => {
     setTimeout(() => {
       setLoader(false);
-    }, 4000);
+    }, 2000);
   };
+
   return (
     <div id={loader ? "preloader" : "preloader-none"}>
       <div className="loader">
@@ -20,7 +23,7 @@ const Pre = (props) => {
             height={120}
             width={120}
             color="#c770f0"
-            timeout={3000}
+            timeout={1500}
           />
         )}
         {loader && close()}
@@ -29,4 +32,4 @@ const Pre = (props) => {
   );
 };
 
-export default Pre;
+export default CustomLoader;

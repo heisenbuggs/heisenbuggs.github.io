@@ -1,14 +1,20 @@
-import React from "react";
-import { Col, Container } from "react-bootstrap";
-import "../../styles/Home.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import { Icon } from "@iconify/react";
-import codechefIcon from "@iconify-icons/simple-icons/codechef";
-import githubFill from "@iconify-icons/akar-icons/github-fill";
-import linkedinFill from "@iconify-icons/akar-icons/linkedin-fill";
-import geeksforgeeksIcon from "@iconify-icons/simple-icons/geeksforgeeks";
-import leetcodeIcon from "@iconify-icons/cib/leetcode";
-import hackerrankIcon from "@iconify-icons/cib/hackerrank";
+import './Home.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import React from 'react';
+
+import {
+  Col,
+  Container,
+} from 'react-bootstrap';
+
+import githubFill from '@iconify-icons/akar-icons/github-fill';
+import linkedinFill from '@iconify-icons/akar-icons/linkedin-fill';
+import hackerrankIcon from '@iconify-icons/cib/hackerrank';
+import leetcodeIcon from '@iconify-icons/cib/leetcode';
+import codechefIcon from '@iconify-icons/simple-icons/codechef';
+import geeksforgeeksIcon from '@iconify-icons/simple-icons/geeksforgeeks';
+import { Icon } from '@iconify/react';
 
 const Platforms = () => {
   return (

@@ -1,19 +1,26 @@
-import React, { useState } from "react";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-import Container from "react-bootstrap/Container";
-import Button from "react-bootstrap/Button";
-import { Link } from "react-router-dom";
-import { NavbarBrand, NavItem, NavLink } from "react-bootstrap";
-import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
-import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "../styles/Navbar.css";
-import "../styles/HamBurger.css";
-import Hamburger from "./Hamburger";
-import audio from '../assets/tick.mp3';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './HeaderComponent.css';
+import '../HamburgerComponent/HamBurgerComponent.css';
 
-const NavBar = () => {
+import React, { useState } from 'react';
+
+import {
+  NavbarBrand,
+  NavItem,
+  NavLink,
+} from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
+import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import { Link } from 'react-router-dom';
+
+import audio from '../../assets/tick.mp3';
+import Hamburger from '../HamburgerComponent';
+
+const HeaderComponent = () => {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
 
@@ -104,4 +111,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default HeaderComponent;

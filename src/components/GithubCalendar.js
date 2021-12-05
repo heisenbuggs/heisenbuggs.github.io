@@ -1,7 +1,9 @@
-import React from "react";
-import GitHubCalendar from "react-github-calendar";
-import { Row } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import React from 'react';
+
+import { Row } from 'react-bootstrap';
+import GitHubCalendar from 'react-github-calendar';
 
 const Github = () => {
   const colourTheme = {

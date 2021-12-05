@@ -1,19 +1,26 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../Particle";
-import "../../styles/About.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import Animate from "react-smooth";
-import Particles from "react-particles-js";
-import particles from "../LineParticle";
-import Github from "./Github";
-import Techstack from "./Techstack";
-import Aboutcard from "./AboutCard";
-import laptopImg from "../../assets/about.png";
-import data from "./TechList.json";
+import './About.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import React from 'react';
+
+import {
+  Col,
+  Container,
+  Row,
+} from 'react-bootstrap';
+import Particles from 'react-particles-js';
+import Animate from 'react-smooth';
+
+import laptopImg from '../../assets/about.png';
+import Github from '../../components/GithubCalendar';
+import particles from '../../components/LineParticle';
+import particleParams from '../../components/Particle';
+import Techstack from '../../ui/TechstackCard';
+import data from '../../utils/constants/TechList.json';
+import Aboutcard from './AboutCard';
 
 const About = () => {
-  var lang = data.languages,
+  let lang = data.languages,
     tech = data.tech,
     tools = data.tools;
 
@@ -21,7 +28,7 @@ const About = () => {
     <Animate to="1" from="0" attributeName="opacity">
       <Particles params={particles} className="particle" />
       <Container fluid className="about-section">
-        <Particle />
+        <Particles params={particleParams}/>
         <Container>
           <Row style={{ justifyContent: "center", padding: "10px" }}>
             <Col

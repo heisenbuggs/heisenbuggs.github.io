@@ -1,6 +1,8 @@
-import React, { useState } from "react";
-import { Col } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import React, { useState } from 'react';
+
+import { Col } from 'react-bootstrap';
 
 const Techstack = (prop) => {
   const [hover, setHover] = useState(false);

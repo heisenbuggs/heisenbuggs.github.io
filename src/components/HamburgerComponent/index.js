@@ -1,7 +1,9 @@
-import React from "react";
-import { useEffect } from "react";
-import { useState } from "react";
-import "../styles/HamBurger.css";
+import './HamBurgerComponent.css';
+
+import React, {
+  useEffect,
+  useState,
+} from 'react';
 
 const Hamburger = (props) => {
   var expand = props.expand;

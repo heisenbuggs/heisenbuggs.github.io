@@ -1,21 +1,28 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
-import Particle from "../Particle";
-import Resumecontent from "./ResumeContent";
-import "../../styles/Resume.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import pdf from "../../assets/Resume_PrasukJain.pdf";
-import Animate from "react-smooth";
-import Particles from "react-particles-js";
-import particles from "../LineParticle";
+import './Resume.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import React from 'react';
+
+import {
+  Col,
+  Container,
+  Row,
+} from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
+import Particles from 'react-particles-js';
+import Animate from 'react-smooth';
+
+import pdf from '../../assets/Resume_PrasukJain.pdf';
+import particles from '../../components/LineParticle';
+import particleParams from '../../components/Particle';
+import Resumecontent from './ResumeContent';
 
 const Resume = () => {
   return (
     <Animate to="1" from="0" attributeName="opacity">
       <Particles params={particles} className="particle" />
       <Container fluid className="resume-section">
-        <Particle />
+        <Particles params={particleParams}/>
         <Container>
           <Row style={{ justifyContent: "center", position: "relative" }}>
             <Button

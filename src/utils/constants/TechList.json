@@ -6,6 +6,11 @@
       "hoverIcon": "devicon-cplusplus-line"
     },
     {
+      "name": "Java",
+      "iconName": "devicon-java-plain",
+      "hoverIcon": "devicon-java-plain-wordmark"
+    },
+    {
       "name": "JavaScript",
       "iconName": "devicon-javascript-plain",
       "hoverIcon": "devicon-javascript-plain"
@@ -14,11 +19,6 @@
       "name": "TypeScript",
       "iconName": "devicon-typescript-plain",
       "hoverIcon": "devicon-typescript-plain"
-    },
-    {
-      "name": "Python",
-      "iconName": "devicon-python-plain",
-      "hoverIcon": "devicon-python-plain-wordmark"
     },
     {
       "name": "HTML",
@@ -56,11 +56,6 @@
       "name": "Express",
       "iconName": "devicon-express-original",
       "hoverIcon": "devicon-express-original-wordmark"
-    },
-    {
-      "name": "Django",
-      "iconName": "devicon-django-plain",
-      "hoverIcon": "devicon-django-line"
     },
     {
       "name": "Bootstrap",

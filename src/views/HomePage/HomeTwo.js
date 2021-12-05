@@ -1,8 +1,15 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import face from "../../assets/Face2.png";
-import "bootstrap/dist/css/bootstrap.min.css";
-import Tilt from "react-parallax-tilt";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import React from 'react';
+
+import {
+  Col,
+  Container,
+  Row,
+} from 'react-bootstrap';
+import Tilt from 'react-parallax-tilt';
+
+import face from '../../assets/Face2.png';
 
 const HomeTwo = () => {
   return (
