@@ -6,6 +6,14 @@
   height: 100%;
 }
 
+.face {
+  margin: 10px;
+  width: 16vh;
+  height: 16vh;
+  border-radius: 50%;
+  box-shadow: 0 0 15px gray;
+}
+
 .home-header {
   padding-top: 30px;
 }
@@ -66,8 +74,8 @@
   }
 
   .myAvtar {
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 2em 0;
+    margin-top: 20px;
   }
 }
 
@@ -84,14 +92,12 @@
 }
 
 .myAvtar {
-  margin-top: -20px;
-  padding-top: 0em;
+  margin-top: 20px;
 }
 
 .home-about-section {
   /* position: relative; */
-  padding-bottom: 70px;
-  padding-top: 70px;
+  padding: 70px 0;
 }
 
 @media (min-width: 992px) {
@@ -104,8 +110,7 @@
 
 .home-about-description {
   color: white;
-  padding-top: 100px;
-  padding-bottom: 20px;
+  padding: 100px 16px 20px 16px;
   text-align: center;
 }
 
@@ -216,8 +221,8 @@
 
 .social-icons {
   display: inline-block;
-  padding-right: 12px;
-  padding-left: 12px;
+  padding: 0 12px;
+  margin-top: 10px;
 }
 
 .icon-colour {

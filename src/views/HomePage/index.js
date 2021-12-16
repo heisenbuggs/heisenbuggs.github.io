@@ -28,7 +28,7 @@ const Home = () => {
           <Particles params={particleParams}/>
           <Container className="home-content">
             <Row>
-              <Col lg={7} className="home-header">
+              <Col md={12} lg={7} className="home-header">
                 <Greeting />
 
                 <h1 className="heading-name">
@@ -45,7 +45,7 @@ const Home = () => {
                 <Platforms />
               </Col>
 
-              <Col lg={5} style={{ paddingBottom: 20 }}>
+              <Col md={12} lg={5} style={{ paddingBottom: 20 }}>
                 <img src={homeLogo} alt="home pic" className="img-fluid" />
               </Col>
             </Row>

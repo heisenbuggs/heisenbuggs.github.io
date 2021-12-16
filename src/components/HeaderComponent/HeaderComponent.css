@@ -1,54 +1,55 @@
 .sticky {
-    background-color: #212038d8 !important;
-    transition: all 0.3s ease-out 0s !important;
-    box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
-    backdrop-filter: blur(15px) !important;
+    background-color: #212038d8;
+    transition: all 0.3s ease-out 0s;
+    box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171);
+    backdrop-filter: blur(15px);
 }
 
 .navbar {
-    position: fixed !important;
-    transition: all 0.3s ease-out 0s !important;
-    padding: 0.3rem 2rem !important;
-    font-size: 1.2rem !important;
+    position: fixed;
+    transition: all 0.3s ease-out 0s;
+    padding: 0.3rem 2rem;
+    font-size: 1.2rem;
 }
 
 .navbar-toggler {
-    padding: 0.25rem 1.5rem !important;
-    position: relative !important;
-    background-color: transparent !important;
-    border-color: transparent !important;
+    padding: 0.25rem 1.5rem;
+    position: relative;
+    background-color: transparent;
+    border-color: transparent;
 }
 
 .navbar-toggler span {
-    display: block !important;
-    background-color: #be50f4 !important;
-    height: 4px !important;
-    width: 27px !important;
-    margin-top: 5px !important;
-    margin-bottom: 5px !important;
-    transform: rotate(0deg) !important;
-    left: 0 !important;
-    opacity: 1 !important;
+    display: block;
+    background-color: #be50f4;
+    height: 4px;
+    width: 27px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transform: rotate(0deg);
+    left: 0;
+    opacity: 1;
 }
 
 .navbar-toggler:focus,
 .navbar-toggler:active {
-    outline: 0 !important;
+    outline: 0;
 }
 
 .brand {
     margin-top: 10px;
+    font-size: 1.75rem;
 }
 
 @media (max-width: 806px) {
     .navbar {
-        padding: 0rem 2rem 0.5rem 2rem !important;
-        font-size: 1.4rem !important;
-        background-color: #181a27 !important;
+        padding: 0rem 2rem 0.5rem 2rem;
+        font-size: 1.4rem;
+        background-color: #181a27;
     }
 
     .navbar-nav .nav-item a::after {
-        display: none !important;
+        display: none;
     }
 
     .brand {
@@ -57,7 +58,7 @@
     }
 
     .nav-link {
-        padding: 0.7rem 1rem !important;
+        padding: 0.7rem 1rem;
     }
 }
 
@@ -66,8 +67,8 @@
 }
 
 .logo {
-    height: 1.4em !important;
-    width: 2.5em !important;
+    height: 1.4em;
+    width: 2.5em;
 }
 
 .navbar-nav .nav-link {
@@ -77,7 +78,7 @@
 }
 
 .nav-link {
-    padding: 0.8rem 1rem !important;
+    padding: 0.8rem 1rem;
 }
 
 .navbar-nav .nav-item {
@@ -126,13 +127,13 @@
 
 .fork-btn-inner:hover {
     transform: translateY(-2px);
-    background-color: #a24dd386 !important;
-    border-color: #a24dd386 !important;
+    background-color: #a24dd386;
+    border-color: #a24dd386;
     text-decoration: none;
 }
 
 .btn-primary {
-    background-color: #934cce5e !important;
+    background-color: #934cce5e;
 }
 
 .fork-btn-inner::after {

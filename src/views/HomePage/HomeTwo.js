@@ -9,7 +9,10 @@ import {
 } from 'react-bootstrap';
 import Tilt from 'react-parallax-tilt';
 
-import face from '../../assets/Face2.png';
+import doozieLogoImg from '../../assets/doozieLogoImg.png';
+import growwLogoImg from '../../assets/growwLogoImg.png';
+import nobrokerLogoImg from '../../assets/nobrokerLogoImg.png';
+import phonepeLogoImg from '../../assets/phonepeLogoImg.png';
 
 const HomeTwo = () => {
   return (
@@ -29,7 +32,7 @@ const HomeTwo = () => {
               <i>
                 <b className="purple">
                   {" "}
-                  C++, Javascript, TypeScript and Python.{" "}
+                  C++, Java, JavaScript and TypeScript.{" "}
                 </b>
               </i>
               <br />
@@ -49,19 +52,36 @@ const HomeTwo = () => {
               <i>
                 <b className="purple">
                   {" "}
-                  React, Django, ExpressJS and React Native .
+                  React, ExpressJS and React Native .
                 </b>
               </i>
             </p>
           </Col>
-          <Col sm={12} lg={4} className="myAvtar">
+          <Col md={12} lg={4} className="myAvtar">
             <Tilt>
               <img
-                src={face}
+                src={phonepeLogoImg}
                 className="img-fluid face"
-                alt="avatar"
-                height={300}
-                width={350}
+                alt="Phonepe"
+                title="PhonePe"
+              />
+              <img
+                src={growwLogoImg}
+                className="img-fluid face"
+                alt="Groww"
+                title="Groww"
+              />
+              <img
+                src={nobrokerLogoImg}
+                className="img-fluid face"
+                alt="NoBroker"
+                title="NoBroker"
+              />
+              <img
+                src={doozieLogoImg}
+                className="img-fluid face"
+                alt="Doozie"
+                title="Doozie"
               />
             </Tilt>
           </Col>
