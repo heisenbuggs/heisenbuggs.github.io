@@ -39,7 +39,7 @@
 .brand {
     margin-top: 10px;
     font-size: 1.75rem;
-    font-family: Agustina Regular;
+    font-family: Agustina Regular; 
 }
 
 @media (max-width: 806px) {
@@ -85,6 +85,7 @@
 .navbar-nav .nav-item {
     position: relative;
     margin-left: 20px;
+    margin-left: 25px;
 }
 
 .navbar-nav .nav-item a {

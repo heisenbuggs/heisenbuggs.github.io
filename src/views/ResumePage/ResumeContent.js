@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const ResumeContent = (props) => {
   return (
@@ -11,7 +11,7 @@ const ResumeContent = (props) => {
       {props.content && (
         <ul style={{ marginLeft: -15 }}>
           {props.content.map((value, index) => (
-            <li key={index}>&#x2747; {value}</li>
+            <li key={index}>&#10148; {value}</li>
           ))}
         </ul>
       )}
