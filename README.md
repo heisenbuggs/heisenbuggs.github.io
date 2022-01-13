@@ -1,6 +1,6 @@
 <h2 align="center">
   DevFolio<br/>
-  <a href="https://itzprasuk.github.io/" target="_blank">itzprasuk.github.io</a>
+  <a href="https://heisenbuggs.github.io/" target="_blank">heisenbuggs.github.io</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./src/assets/laptop.jpeg" />
@@ -13,25 +13,25 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/itzprasuk/DevFolio?color=blue&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/itzprasuk/DevFolio?color=green&logo=github&style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/heisenbuggs/DevFolio?color=blue&logo=github&style=for-the-badge) &nbsp;
+![GitHub forks](https://img.shields.io/github/forks/heisenbuggs/DevFolio?color=green&logo=github&style=for-the-badge)
 
 </center>
 
 <h3 align="center">
     🔹
-    <a href="https://github.com/itzprasuk/DevFolio/issues">Report Bug</a> &nbsp; &nbsp;
+    <a href="https://github.com/heisenbuggs/DevFolio/issues">Report Bug</a> &nbsp; &nbsp;
     🔹
-    <a href="https://github.com/itzprasuk/DevFolio/issues">Request Feature</a>
+    <a href="https://github.com/heisenbuggs/DevFolio/issues">Request Feature</a>
 </h3>
 
 ## TL;DR
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [itzprasuk](https://github.com/itzprasuk/DevFolio). Thanks!
+You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [heisenbuggs](https://github.com/heisenbuggs/DevFolio). Thanks!
 
 ## Built With
 
-My personal portfolio <a href="https://itzprasuk.github.io/" target="_blank">itzprasuk.github.io</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio <a href="https://heisenbuggs.github.io/" target="_blank">heisenbuggs.github.io</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 

@@ -23,7 +23,7 @@ const Platforms = () => {
         <ul className="home-platforms-social-links">
           <li className="social-icons">
             <a
-              href="https://github.com/itzprasuk"
+              href="https://github.com/heisenbuggs"
               target="_blank"
               rel="noreferrer"
               className="icon-colour home-platforms-icons"
@@ -55,7 +55,7 @@ const Platforms = () => {
           </li>
           <li className="social-icons">
             <a
-              href="https://leetcode.com/itzprasuk/"
+              href="https://leetcode.com/heisenbuggs/"
               target="_blank"
               rel="noreferrer"
               className="icon-colour home-platforms-icons"
@@ -87,7 +87,7 @@ const Platforms = () => {
           </li>
           <li className="social-icons">
             <a
-              href="https://auth.geeksforgeeks.org/user/itzprasuk/practice/"
+              href="https://auth.geeksforgeeks.org/user/heisenbuggs/practice/"
               target="_blank"
               rel="noreferrer"
               className="icon-colour home-platforms-icons"

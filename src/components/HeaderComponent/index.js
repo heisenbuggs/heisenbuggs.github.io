@@ -48,7 +48,7 @@ const HeaderComponent = () => {
       <Container>
         <NavbarBrand href="/">
           <h3 className="brand">
-            <b>{"< itzprasuk />"}</b>
+            <b>{"< heisenbuggs />"}</b>
           </h3>
         </NavbarBrand>
         <NavbarToggle
@@ -97,7 +97,7 @@ const HeaderComponent = () => {
 
             <NavItem className="fork-btn">
               <Button
-                href="https://github.com/itzprasuk/DevFolio"
+                href="https://github.com/heisenbuggs/DevFolio"
                 target="_blank"
                 className="fork-btn-inner"
               >
