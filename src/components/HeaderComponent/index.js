@@ -15,6 +15,12 @@ import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { BsWindowDock } from 'react-icons/bs';
+import {
+  FaCodeBranch,
+  FaUserTie,
+} from 'react-icons/fa';
+import { SiHomeassistantcommunitystore } from 'react-icons/si';
 import { Link } from 'react-router-dom';
 
 import audio from '../../assets/tick.mp3';
@@ -64,7 +70,7 @@ const HeaderComponent = () => {
           <Nav className="ml-auto" defaultActiveKey="#home">
             <NavItem>
               <NavLink as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <i className="fas fa-home"></i> Home
+              <SiHomeassistantcommunitystore /> Home
               </NavLink>
             </NavItem>
             <NavItem>
@@ -73,7 +79,7 @@ const HeaderComponent = () => {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <i className="fas fa-user"></i> About
+                <FaUserTie /> About
               </NavLink>
             </NavItem>
             <NavItem>
@@ -82,7 +88,7 @@ const HeaderComponent = () => {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <i className="fas fa-code-branch"></i> Projects
+                <FaCodeBranch /> Projects
               </NavLink>
             </NavItem>
             <NavItem>
@@ -91,7 +97,7 @@ const HeaderComponent = () => {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <i className="fas fa-file-pdf"></i> Resume
+                <BsWindowDock /> Resume
               </NavLink>
             </NavItem>
 

@@ -10,7 +10,6 @@ import {
 
 import githubFill from '@iconify-icons/akar-icons/github-fill';
 import linkedinFill from '@iconify-icons/akar-icons/linkedin-fill';
-import hackerrankIcon from '@iconify-icons/cib/hackerrank';
 import leetcodeIcon from '@iconify-icons/cib/leetcode';
 import codechefIcon from '@iconify-icons/simple-icons/codechef';
 import geeksforgeeksIcon from '@iconify-icons/simple-icons/geeksforgeeks';
@@ -97,22 +96,6 @@ const Platforms = () => {
                 icon={geeksforgeeksIcon}
                 height={28}
                 width={28}
-                style={{ marginBottom: 8 }}
-              />
-            </a>
-          </li>
-          <li className="social-icons">
-            <a
-              href="https://www.hackerrank.com/meprasuk?hr_r=1 "
-              target="_blank"
-              rel="noreferrer"
-              className="icon-colour home-platforms-icons"
-              title="HackerRank"
-            >
-              <Icon
-                icon={hackerrankIcon}
-                height={32}
-                width={32}
                 style={{ marginBottom: 8 }}
               />
             </a>
