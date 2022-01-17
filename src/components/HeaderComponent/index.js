@@ -15,12 +15,14 @@ import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { BsWindowDock } from 'react-icons/bs';
 import {
   FaCodeBranch,
-  FaUserTie,
+  FaUserSecret,
 } from 'react-icons/fa';
-import { SiHomeassistantcommunitystore } from 'react-icons/si';
+import {
+  IoDocumentText,
+  IoHome,
+} from 'react-icons/io5';
 import { Link } from 'react-router-dom';
 
 import audio from '../../assets/tick.mp3';
@@ -70,7 +72,7 @@ const HeaderComponent = () => {
           <Nav className="ml-auto" defaultActiveKey="#home">
             <NavItem>
               <NavLink as={Link} to="/" onClick={() => updateExpanded(false)}>
-              <SiHomeassistantcommunitystore /> Home
+              <IoHome /> Home
               </NavLink>
             </NavItem>
             <NavItem>
@@ -79,7 +81,7 @@ const HeaderComponent = () => {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <FaUserTie /> About
+                <FaUserSecret /> About
               </NavLink>
             </NavItem>
             <NavItem>
@@ -97,7 +99,7 @@ const HeaderComponent = () => {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <BsWindowDock /> Resume
+                <IoDocumentText /> Resume
               </NavLink>
             </NavItem>
 
