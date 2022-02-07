@@ -15,10 +15,8 @@ import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import {
-  FaCodeBranch,
-  FaUserSecret,
-} from 'react-icons/fa';
+import { CgUserlane } from 'react-icons/cg';
+import { FaCodeBranch } from 'react-icons/fa';
 import {
   IoDocumentText,
   IoHome,
@@ -81,7 +79,7 @@ const HeaderComponent = () => {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <FaUserSecret /> About
+                <CgUserlane /> About
               </NavLink>
             </NavItem>
             <NavItem>

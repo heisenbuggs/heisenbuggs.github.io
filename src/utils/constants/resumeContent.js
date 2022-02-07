@@ -1,8 +1,16 @@
 export const WORK_EXPERIENCE = [
     {
+        title: "SWE Intern",
+        company: "PhonePe",
+        date: "Jan 2022 - Present",
+        content: [
+            "Fixed Bugs and improved the code quality using Java and Dropwizard.",
+        ]
+    }, 
+    {
         title: "SDE Intern",
         company: "Groww",
-        date: "Aug 2021 - Present",
+        date: "Aug 2021 - Jan 2022",
         content: [
             "Built Dashboard with better UI and UX for smooth FD Order/Redeem Flow.",
             "Developed server-side rendered Financial Calculators for the users for smooth investment and growth purposes using React, Redux, CSS and TypeScript."

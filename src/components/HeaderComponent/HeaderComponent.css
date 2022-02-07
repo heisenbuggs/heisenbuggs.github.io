@@ -136,10 +136,10 @@
 }
 
 .fork-btn-inner:hover {
-    transform: translateY(-2px);
-    background-color: #a24dd386;
-    border-color: #a24dd386;
-    text-decoration: none;
+  transform: translateY(-3px);
+  background-color: #a24dd394;
+  border-color: #87209e81;
+  box-shadow: 0 8px 20px #a200ff3a;
 }
 
 .btn-primary {

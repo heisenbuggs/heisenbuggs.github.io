@@ -61,7 +61,7 @@ const Resume = () => {
                 date="2018 - Present"
                 institute="Shri G.S. Institute of Technology & Science, Indore"
               />
-              {/* <Resumecontent
+              <Resumecontent
                 title="High School"
                 date="May 2018"
                 institute="New Shanti Niketan Higher Sec. School, Vidisha"
@@ -70,7 +70,7 @@ const Resume = () => {
                 title="Middle School "
                 date="May 2016"
                 institute="St. Mary's Convent Sr. Sec. School, Bhopal"
-              /> */}
+              />
               <h3 className="resume-heading">Achievements</h3>
               <Resumecontent
                 title=""

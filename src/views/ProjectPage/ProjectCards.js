@@ -1,7 +1,9 @@
-import React from "react";
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
-import "bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import React from 'react';
+
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 
 const ProjectCards = (props) => {
   return (

@@ -46,13 +46,13 @@ const HomeTwo = () => {
               <br />
               <br />I also apply my passion for developing products with
               <i>
-                <b className="purple"> Modern Javascript Frameworks</b>
+                <b className="purple"> Modern Technologies</b>
               </i>
               &nbsp; like
               <i>
                 <b className="purple">
                   {" "}
-                  React, ExpressJS and React Native .
+                  React, Spring Boot, ExpressJS and React Native .
                 </b>
               </i>
             </p>

@@ -15,8 +15,8 @@ import editor from '../../assets/Projects/codeditor.jpg';
 import coursera from '../../assets/Projects/Coursera.png';
 import gfg from '../../assets/Projects/Gfg.png';
 import graph from '../../assets/Projects/graph.png';
-import linkedin from '../../assets/Projects/linkedin.jpg';
 import quiziify from '../../assets/Projects/quiziify.png';
+import udemy from '../../assets/Projects/udemy.png';
 import particles from '../../components/LineParticle';
 import particleParams from '../../components/Particle';
 import BlogCard from './BlogsCards';
@@ -27,7 +27,7 @@ const Projects = () => {
     <Animate to="1" from="0" attributeName="opacity">
       <Particles params={particles} className="particle" />
       <Container fluid className="project-section">
-        <Particles params={particleParams}/>
+        <Particles params={particleParams} />
         <Container>
           <h1 className="project-heading">
             My Recent <strong className="purple">Works </strong>
@@ -76,12 +76,20 @@ const Projects = () => {
           <Row style={{ justifyContent: "center" }}>
             <Col md={4} className="blog-card">
               <BlogCard
+                imgPath={udemy}
+                link="https://drive.google.com/file/d/1Hj07OiItiWfZXG1uVLSNXiOMmtgwSZRn/view?usp=sharing"
+                title="Java Backend Developer"
+                site="udemy.com"
+              />
+            </Col>
+            {/* <Col md={4} className="blog-card">
+              <BlogCard
                 imgPath={linkedin}
                 link="https://drive.google.com/file/d/1Hj07OiItiWfZXG1uVLSNXiOMmtgwSZRn/view?usp=sharing"
                 title="Become a Django Developer"
                 site="linked.com"
               />
-            </Col>
+            </Col> */}
             <Col md={4} className="blog-card">
               <BlogCard
                 imgPath={gfg}
