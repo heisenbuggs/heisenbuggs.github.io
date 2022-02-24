@@ -7,7 +7,6 @@ import {
   Container,
   Row,
 } from 'react-bootstrap';
-import Tilt from 'react-parallax-tilt';
 
 import doozieLogoImg from '../../assets/doozieLogoImg.png';
 import growwLogoImg from '../../assets/growwLogoImg.png';
@@ -19,7 +18,7 @@ const HomeTwo = () => {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col sm={12} lg={8} className="home-about-description">
+          <Col xs={12} lg={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
@@ -57,33 +56,31 @@ const HomeTwo = () => {
               </i>
             </p>
           </Col>
-          <Col md={12} lg={4} className="myAvtar">
-            <Tilt>
-              <img
-                src={phonepeLogoImg}
-                className="img-fluid face"
-                alt="Phonepe"
-                title="PhonePe"
-              />
-              <img
-                src={growwLogoImg}
-                className="img-fluid face"
-                alt="Groww"
-                title="Groww"
-              />
-              <img
-                src={nobrokerLogoImg}
-                className="img-fluid face"
-                alt="NoBroker"
-                title="NoBroker"
-              />
-              <img
-                src={doozieLogoImg}
-                className="img-fluid face"
-                alt="Doozie"
-                title="Doozie"
-              />
-            </Tilt>
+          <Col xs={12} lg={4} className="company">
+            <img
+              src={phonepeLogoImg}
+              className="img-fluid face"
+              alt="Phonepe"
+              title="PhonePe"
+            />
+            <img
+              src={growwLogoImg}
+              className="img-fluid face"
+              alt="Groww"
+              title="Groww"
+            />
+            <img
+              src={nobrokerLogoImg}
+              className="img-fluid face"
+              alt="NoBroker"
+              title="NoBroker"
+            />
+            <img
+              src={doozieLogoImg}
+              className="img-fluid face"
+              alt="Doozie"
+              title="Doozie"
+            />
           </Col>
         </Row>
         <Row>

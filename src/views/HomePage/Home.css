@@ -228,3 +228,9 @@
 .icon-colour {
   color: #700c86;
 }
+
+@media(min-width: 1200px) {
+  .company {
+    min-width: 350px;
+  }
+}
