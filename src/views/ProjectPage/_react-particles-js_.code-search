@@ -1,0 +1,24 @@
+# Query: 'react-particles-js'
+# ContextLines: 1
+
+4 results - 4 files
+
+src/components/FooterComponent/index.js:
+  10  } from 'react-bootstrap';
+  11: import Particles from 'react-tsparticles';
+  12  import Animate from 'react-smooth/lib/Animate';
+
+src/views/AboutPage/index.js:
+  10  } from 'react-bootstrap';
+  11: import Particles from 'react-tsparticles';
+  12  import Animate from 'react-smooth';
+
+src/views/HomePage/index.js:
+  10  } from 'react-bootstrap';
+  11: import Particles from 'react-tsparticles';
+  12  import Animate from 'react-smooth';
+
+src/views/ResumePage/index.js:
+  12  import { FaDownload } from 'react-icons/fa';
+  13: import Particles from 'react-tsparticles';
+  14  import Animate from 'react-smooth';
