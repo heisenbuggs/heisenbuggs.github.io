@@ -8,7 +8,7 @@ import {
   Container,
   Row,
 } from 'react-bootstrap';
-import Particles from 'react-particles-js';
+// import Particles from 'react-particles-js';
 import Animate from 'react-smooth';
 
 import laptopImg from '../../assets/about.png';
@@ -25,10 +25,8 @@ const About = () => {
     tools = data.tools;
 
   return (
-    <Animate to="1" from="0" attributeName="opacity">
-      <Particles params={particles} className="particle" />
       <Container fluid className="about-section">
-        <Particles params={particleParams}/>
+        {/* <Particles params={particleParams}/> */}
         <Container>
           <Row style={{ justifyContent: "center", padding: "10px" }}>
             <Col
@@ -92,7 +90,6 @@ const About = () => {
           <Github />
         </Container>
       </Container>
-    </Animate>
   );
 };
 

@@ -8,7 +8,7 @@ import {
   Container,
   Row,
 } from 'react-bootstrap';
-import Particles from 'react-particles-js';
+// import Particles from 'react-particles-js';
 import Animate from 'react-smooth/lib/Animate';
 
 import heartIcon from '../../assets/heart_shape.png';
@@ -21,10 +21,7 @@ const Footer = () => {
   let year = date.getFullYear();
 
   return (
-    <Animate to="1" from="0" attributeName="opacity">
-      <Particles params={particles} className="particle" />
       <Container fluid className="footer">
-        <Particles params={particleParams} />
         <Row>
           <Col md="12" className="quote">
             <h6>
@@ -62,7 +59,6 @@ const Footer = () => {
           </Col>
         </Row>
       </Container>
-    </Animate>
   );
 };
 

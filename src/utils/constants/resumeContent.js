@@ -1,8 +1,16 @@
 export const WORK_EXPERIENCE = [
     {
+        title: "Software Engineer",
+        company: "PhonePe",
+        date: "Jul 2022 - Present",
+        content: [
+
+        ]
+    },
+    {
         title: "SWE Intern",
         company: "PhonePe",
-        date: "Jan 2022 - Present",
+        date: "Jan 2022 - Jul 2022",
         content: [
             "Fixed Bugs and improved the code quality using Java and Dropwizard.",
         ]

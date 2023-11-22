@@ -8,7 +8,7 @@ import {
   Container,
   Row,
 } from 'react-bootstrap';
-import Particles from 'react-particles-js';
+// import Particles from 'react-particles-js';
 import Animate from 'react-smooth';
 
 import homeLogo from '../../assets/main.png';
@@ -22,10 +22,8 @@ import Platforms from './Platforms';
 const Home = () => {
   return (
     <section className="sect">
-      <Animate to="1" from="0" attributeName="opacity">
-        <Particles params={particles} className="particle" />
         <Container fluid className="home-section">
-          <Particles params={particleParams}/>
+          {/* <Particles params={particleParams}/> */}
           <Container className="home-content">
             <Row>
               <Col md={12} lg={7} className="home-header">
@@ -52,7 +50,6 @@ const Home = () => {
           </Container>
         </Container>
         <HomeTwo />
-      </Animate>
     </section>
   );
 };

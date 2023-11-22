@@ -8,7 +8,7 @@ import {
   Container,
   Row,
 } from 'react-bootstrap';
-import Particles from 'react-particles-js';
+// import Particles from 'react-particles-js';
 import Animate from 'react-smooth';
 
 import editor from '../../assets/Projects/codeditor.jpg';
@@ -25,9 +25,9 @@ import ProjectCard from './ProjectCards';
 const Projects = () => {
   return (
     <Animate to="1" from="0" attributeName="opacity">
-      <Particles params={particles} className="particle" />
+      {/* <Particles params={particles} className="particle" /> */}
       <Container fluid className="project-section">
-        <Particles params={particleParams} />
+        {/* <Particles params={particleParams} /> */}
         <Container>
           <h1 className="project-heading">
             My Recent <strong className="purple">Works </strong>

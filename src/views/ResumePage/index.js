@@ -10,12 +10,12 @@ import {
 } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import { FaDownload } from 'react-icons/fa';
-import Particles from 'react-particles-js';
+// import Particles from 'react-particles-js';
 import Animate from 'react-smooth';
 
 import pdf from '../../assets/Resume_PrasukJain.pdf';
-import particles from '../../components/LineParticle';
-import particleParams from '../../components/Particle';
+// import particles from '../../components/LineParticle';
+// import particleParams from '../../components/Particle';
 import {
   ACHIEVEMENTS,
   WORK_EXPERIENCE,
@@ -24,10 +24,8 @@ import Resumecontent from './ResumeContent';
 
 const Resume = () => {
   return (
-    <Animate to="1" from="0" attributeName="opacity">
-      <Particles params={particles} className="particle" />
       <Container fluid className="resume-section">
-        <Particles params={particleParams}/>
+        {/* <Particles params={particleParams}/> */}
         <Container>
           <Row style={{ justifyContent: "center", position: "relative" }}>
             <Button
@@ -98,7 +96,6 @@ const Resume = () => {
           </Row>
         </Container>
       </Container>
-    </Animate>
   );
 };
 
