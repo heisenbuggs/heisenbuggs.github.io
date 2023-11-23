@@ -1,29 +1,26 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './Home.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./Home.css";
 
-import React from 'react';
+import React from "react";
 
-import {
-  Col,
-  Container,
-  Row,
-} from 'react-bootstrap';
-// import Particles from 'react-particles-js';
-import Animate from 'react-smooth';
+import { Col, Container, Row } from "react-bootstrap";
+import Animate from "react-smooth";
 
-import homeLogo from '../../assets/main.png';
-import Greeting from '../../components/GreetingComponent';
-import particles from '../../components/LineParticle.js';
-import particleParams from '../../components/Particle';
-import Type from '../../components/TypewriterComponent';
-import HomeTwo from './HomeTwo';
-import Platforms from './Platforms';
+import homeLogo from "../../assets/main.png";
+import Greeting from "../../components/GreetingComponent";
+import Type from "../../components/TypewriterComponent";
+import HomeTwo from "./HomeTwo";
+import LineParticle from "../../components/LineParticle";
+import Platforms from "./Platforms";
+import StarsParticle from "../../components/StarsParticle";
 
 const Home = () => {
   return (
     <section className="sect">
+      <Animate to="1" from="0" attributeName="opacity">
+        <StarsParticle />
         <Container fluid className="home-section">
-          {/* <Particles params={particleParams}/> */}
+          <LineParticle />
           <Container className="home-content">
             <Row>
               <Col md={12} lg={7} className="home-header">
@@ -43,13 +40,14 @@ const Home = () => {
                 <Platforms />
               </Col>
 
-              <Col md={12} lg={5} style={{ paddingBottom: 20, marginTop: 20}}>
+              <Col md={12} lg={5} style={{ paddingBottom: 20, marginTop: 20 }}>
                 <img src={homeLogo} alt="home pic" className="img-fluid" />
               </Col>
             </Row>
           </Container>
         </Container>
         <HomeTwo />
+      </Animate>
     </section>
   );
 };

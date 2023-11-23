@@ -1,33 +1,28 @@
-import './Projects.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "./Projects.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-import React from 'react';
+import React from "react";
 
-import {
-  Col,
-  Container,
-  Row,
-} from 'react-bootstrap';
-// import Particles from 'react-particles-js';
-import Animate from 'react-smooth';
+import { Col, Container, Row } from "react-bootstrap";
+import Animate from "react-smooth";
 
-import editor from '../../assets/Projects/codeditor.jpg';
-import coursera from '../../assets/Projects/Coursera.png';
-import gfg from '../../assets/Projects/Gfg.png';
-import graph from '../../assets/Projects/graph.png';
-import quiziify from '../../assets/Projects/quiziify.png';
-import udemy from '../../assets/Projects/udemy.png';
-import particles from '../../components/LineParticle';
-import particleParams from '../../components/Particle';
-import BlogCard from './BlogsCards';
-import ProjectCard from './ProjectCards';
+import editor from "../../assets/Projects/codeditor.jpg";
+import coursera from "../../assets/Projects/Coursera.png";
+import gfg from "../../assets/Projects/Gfg.png";
+import graph from "../../assets/Projects/graph.png";
+import quiziify from "../../assets/Projects/quiziify.png";
+import udemy from "../../assets/Projects/udemy.png";
+import BlogCard from "./BlogsCards";
+import ProjectCard from "./ProjectCards";
+import StarsParticle from "../../components/StarsParticle";
+import LineParticle from "../../components/LineParticle";
 
 const Projects = () => {
   return (
     <Animate to="1" from="0" attributeName="opacity">
-      {/* <Particles params={particles} className="particle" /> */}
       <Container fluid className="project-section">
-        {/* <Particles params={particleParams} /> */}
+        <StarsParticle />
+        <LineParticle />
         <Container>
           <h1 className="project-heading">
             My Recent <strong className="purple">Works </strong>

@@ -14,13 +14,14 @@ import Animate from 'react-smooth/lib/Animate';
 import heartIcon from '../../assets/heart_shape.png';
 import socialLinks from '../../utils/constants/footerSocialLinks';
 import particles from '../LineParticle';
-import particleParams from '../Particle';
+import particleParams from '../StarsParticle';
 
 const Footer = () => {
   let date = new Date();
   let year = date.getFullYear();
 
   return (
+    <Animate to="1" from="0" attributeName="opacity">
       <Container fluid className="footer">
         <Row>
           <Col md="12" className="quote">
@@ -59,6 +60,7 @@ const Footer = () => {
           </Col>
         </Row>
       </Container>
+    </Animate>
   );
 };
 

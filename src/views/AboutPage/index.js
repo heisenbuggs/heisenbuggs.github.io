@@ -1,23 +1,18 @@
-import './About.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "./About.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-import React from 'react';
+import React from "react";
 
-import {
-  Col,
-  Container,
-  Row,
-} from 'react-bootstrap';
-// import Particles from 'react-particles-js';
-import Animate from 'react-smooth';
+import { Col, Container, Row } from "react-bootstrap";
+import Animate from "react-smooth";
 
-import laptopImg from '../../assets/about.png';
-import Github from '../../components/GithubCalendar';
-import particles from '../../components/LineParticle';
-import particleParams from '../../components/Particle';
-import Techstack from '../../ui/TechstackCard';
-import data from '../../utils/constants/TechList.json';
-import Aboutcard from './AboutCard';
+import laptopImg from "../../assets/about.png";
+import Github from "../../components/GithubCalendar";
+import Techstack from "../../ui/TechstackCard";
+import data from "../../utils/constants/TechList.json";
+import Aboutcard from "./AboutCard";
+import StarsParticle from "../../components/StarsParticle";
+import LineParticle from "../../components/LineParticle";
 
 const About = () => {
   let lang = data.languages,
@@ -25,8 +20,10 @@ const About = () => {
     tools = data.tools;
 
   return (
+    <Animate to="1" from="0" attributeName="opacity">
       <Container fluid className="about-section">
-        {/* <Particles params={particleParams}/> */}
+        <StarsParticle />
+        <LineParticle />
         <Container>
           <Row style={{ justifyContent: "center", padding: "10px" }}>
             <Col
@@ -90,6 +87,7 @@ const About = () => {
           <Github />
         </Container>
       </Container>
+    </Animate>
   );
 };
 

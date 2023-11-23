@@ -1,31 +1,28 @@
-import './Resume.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "./Resume.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-import React from 'react';
+import React from "react";
 
-import {
-  Col,
-  Container,
-  Row,
-} from 'react-bootstrap';
-import Button from 'react-bootstrap/Button';
-import { FaDownload } from 'react-icons/fa';
-// import Particles from 'react-particles-js';
-import Animate from 'react-smooth';
+import { Col, Container, Row } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
+import { FaDownload } from "react-icons/fa";
+import Animate from "react-smooth";
 
-import pdf from '../../assets/Resume_PrasukJain.pdf';
-// import particles from '../../components/LineParticle';
-// import particleParams from '../../components/Particle';
+import pdf from "../../assets/Resume_PrasukJain.pdf";
 import {
   ACHIEVEMENTS,
   WORK_EXPERIENCE,
-} from '../../utils/constants/resumeContent';
-import Resumecontent from './ResumeContent';
+} from "../../utils/constants/resumeContent";
+import Resumecontent from "./ResumeContent";
+import LineParticle from "../../components/LineParticle";
+import StarsParticle from "../../components/StarsParticle";
 
 const Resume = () => {
   return (
+    <Animate to="1" from="0" attributeName="opacity">
       <Container fluid className="resume-section">
-        {/* <Particles params={particleParams}/> */}
+        <StarsParticle />
+        <LineParticle />
         <Container>
           <Row style={{ justifyContent: "center", position: "relative" }}>
             <Button
@@ -34,26 +31,25 @@ const Resume = () => {
               target="_blank"
               className="download-btn"
             >
-              <FaDownload />&nbsp; Download Resume
+              <FaDownload />
+              &nbsp; Download Resume
             </Button>
           </Row>
           <Row className="resume">
             <Col md={6} className="resume-left">
               <h3 className="resume-heading">Experience</h3>
-              {
-                WORK_EXPERIENCE.map((item) => (
-                  <Resumecontent
-                    key={item.company}
-                    title={item.title}
-                    institute={item.company}
-                    date={item.date}
-                    content={item.content}
-                  />
-                ))
-              }
+              {WORK_EXPERIENCE.map((item) => (
+                <Resumecontent
+                  key={item.company}
+                  title={item.title}
+                  institute={item.company}
+                  date={item.date}
+                  content={item.content}
+                />
+              ))}
             </Col>
             <Col md={6} className="resume-right">
-            <h3 className="resume-heading">Education</h3>
+              <h3 className="resume-heading">Education</h3>
               <Resumecontent
                 title="B.Tech. Electronics & Communication"
                 date="2018 - Present"
@@ -70,10 +66,7 @@ const Resume = () => {
                 institute="St. Mary's Convent Sr. Sec. School, Bhopal"
               />
               <h3 className="resume-heading">Achievements</h3>
-              <Resumecontent
-                title=""
-                content={ACHIEVEMENTS}
-              />
+              <Resumecontent title="" content={ACHIEVEMENTS} />
               <h3 className="resume-heading">Extracurricular Activities</h3>
               <Resumecontent
                 title="Campus Ambassdor, GeeksforGeeks"
@@ -91,11 +84,13 @@ const Resume = () => {
               target="_blank"
               className="download-btn"
             >
-              <FaDownload />&nbsp; Download Resume
+              <FaDownload />
+              &nbsp; Download Resume
             </Button>
           </Row>
         </Container>
       </Container>
+    </Animate>
   );
 };
 

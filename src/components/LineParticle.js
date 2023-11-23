@@ -1,112 +1,93 @@
-const particles = {
-  particles: {
-    number: {
-      value: 100,
-      density: {
-        enable: true,
-        value_area: 900,
-      },
-    },
-    color: {
-      value: "#c8c8c8",
-    },
-    shape: {
-      type: "circle",
-      stroke: {
-        width: 1,
-        color: "#000",
-      },
-      polygon: {
-        nb_sides: 4,
-      },
-      image: {
-        src: "img/github.svg",
-        width: 100,
-        height: 100,
-      },
-    },
-    opacity: {
-      value: 0.3,
-      random: true,
-      anim: {
-        enable: false,
-        speed: 0,
-        opacity_min: 0.1,
-        sync: false,
-      },
-    },
-    size: {
-      value: 2,
-      random: true,
-      anim: {
-        enable: false,
-        speed: 0,
-        size_min: 0.1,
-        sync: true,
-      },
-    },
-    line_linked: {
-      enable: true,
-      distance: 150,
-      color: "c8c8c8",
-      opacity: 0.5,
-      width: 1,
-    },
-    move: {
-      enable: true,
-      speed: 1,
-      direction: "none",
-      random: false,
-      straight: false,
-      out_mode: "out",
-      bounce: true,
-      attract: {
-        enable: false,
-        rotateX: 600,
-        rotateY: 1200,
-      },
-    },
-  },
+import Particles from "react-tsparticles";
+
+const lineParticles = {
+  fpsLimit: 60,
   interactivity: {
-    detect_on: "window",
     events: {
-      onhover: {
-        enable: true,
-        mode: "grab",
-      },
-      onclick: {
+      onClick: {
         enable: true,
         mode: "push",
+      },
+      onHover: {
+        enable: true,
+        mode: "grab",
       },
       resize: true,
     },
     modes: {
-      grab: {
-        distance: 150,
-        line_linked: {
-          opacity: 0.7,
-        },
-      },
       bubble: {
         distance: 400,
-        size: 10,
         duration: 2,
-        opacity: 8,
-        speed: 3,
+        opacity: 0.8,
+        size: 40,
+      },
+      push: {
+        quantity: 4,
       },
       repulse: {
         distance: 200,
         duration: 0.4,
       },
-      push: {
-        particles_nb: 4,
-      },
-      remove: {
-        particles_nb: 2,
-      },
     },
   },
-  retina_detect: true,
+  particles: {
+    color: {
+      value: "#fff",
+    },
+    links: {
+      color: "#fff",
+      distance: 150,
+      enable: true,
+      opacity: 0.1,
+      width: 1,
+    },
+    collisions: {
+      enable: true,
+    },
+    move: {
+      direction: "none",
+      enable: true,
+      outMode: "bounce",
+      random: false,
+      speed: .5,
+      straight: false,
+    },
+    number: {
+      density: {
+        enable: true,
+        value_area: 800,
+      },
+      value: 80,
+    },
+    opacity: {
+      value: 0.5,
+    },
+    shape: {
+      type: "circle",
+    },
+    size: {
+      random: true,
+      value: 1,
+    },
+  },
+  detectRetina: true,
 };
 
-export default particles;
+const LineParticle = () => {
+  const particlesInit = (main) => {
+    // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
+  };
+
+  const particlesLoaded = (container) => {
+  };
+  return (
+    <Particles
+        id="tsparticles"
+        init={particlesInit}
+        loaded={particlesLoaded}
+        options={lineParticles}
+      />
+  )
+}
+
+export default LineParticle;
