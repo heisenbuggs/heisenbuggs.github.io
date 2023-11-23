@@ -51,7 +51,7 @@ const About = () => {
             Professional <strong className="purple">Skillset </strong>
           </h1>
           <p style={{ color: "white" }}>
-            "Grades doesn't assure employment, but{" "}
+            "Grades doesn't assure success, but{" "}
             <strong className="purple">Skills</strong> does."
           </p>
           <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>

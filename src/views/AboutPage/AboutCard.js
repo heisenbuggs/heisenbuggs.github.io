@@ -1,7 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import React from 'react';
-
 import Card from 'react-bootstrap/Card';
 
 const AboutCard = () => {
@@ -14,7 +13,7 @@ const AboutCard = () => {
             from <span className="purple"> Bhopal, India.</span>
             <br />
             {
-              "I am a final year undergraduate pursuing B.Tech. in Electronics & Communication from SGSITS, Indore ."
+              "I am working as Software Engineer at PhonePe, Pune."
             }
             <br />
             <br />
@@ -28,10 +27,7 @@ const AboutCard = () => {
               <i className="far fa-hand-point-right"></i> Reading Novels
             </li>
             <li className="about-activity">
-              <i className="far fa-hand-point-right"></i> Playing Games
-            </li>
-            <li className="about-activity">
-              <i className="far fa-hand-point-right"></i> Travelling
+              <i className="far fa-hand-point-right"></i> Learning Stocks and Finance
             </li>
           </ul>
 
