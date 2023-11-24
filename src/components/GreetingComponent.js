@@ -6,14 +6,14 @@ import React, {
 import TextTransition, { presets } from 'react-text-transition';
 
 const TEXTS = [
-  "Hello There!!",
-  "नमस्ते!!",
-  "ನಮಸ್ತೆ!!",
-  "Hola!!",
-  "Ciao!!",
-  "Bonjour!!",
-  "Здравейте!!",
-  "வணக்கம்!!",
+  "Hello There!",
+  "नमस्ते!",
+  "ನಮಸ್ತೆ!",
+  "Hola!",
+  "Ciao!",
+  "Bonjour!",
+  "Здравейте!",
+  "வணக்கம்!",
 ];
 
 const Greeting = () => {
