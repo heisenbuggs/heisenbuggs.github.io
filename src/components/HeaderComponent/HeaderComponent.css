@@ -114,7 +114,7 @@
     bottom: 1px;
     left: 0;
     z-index: -1;
-    transition: all 0.3s ease-in-out 0s;
+    transition: all 0.15s ease-in-out 0s;
 }
 
 .navbar-nav .nav-item a:hover::after {

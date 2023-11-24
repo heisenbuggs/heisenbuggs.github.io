@@ -22,6 +22,7 @@ import {
   IoHome,
 } from 'react-icons/io5';
 import { Link } from 'react-router-dom';
+import pdf from "../../assets/Resume_PrasukJain.pdf";
 
 import audio from '../../assets/tick.mp3';
 import Hamburger from '../HamburgerComponent';
@@ -48,7 +49,7 @@ const HeaderComponent = () => {
     <Navbar
       expanded={expand}
       fixed="top"
-      expand="md"
+      expand="lg"
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
@@ -108,6 +109,16 @@ const HeaderComponent = () => {
                 className="fork-btn-inner"
               >
                 <i className="far fa-star"></i>
+              </Button>
+            </NavItem>
+            <NavItem className="fork-btn">
+              <Button
+                target="_blank"
+                href={pdf}
+                className="fork-btn-inner"
+                
+              >
+                <i className="fa fa-download"></i>
               </Button>
             </NavItem>
           </Nav>

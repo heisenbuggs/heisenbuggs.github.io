@@ -30,13 +30,13 @@ const Platforms = () => {
             >
               <Icon
                 icon={githubFill}
-                height={32}
-                width={32}
-                style={{ marginBottom: 8 }}
+                height={42}
+                width={42}
+                style={{ marginTop: 3 }}
               />
             </a>
           </li>
-          <li className="social-icons">
+          {/* <li className="social-icons">
             <a
               href="https://www.codechef.com/users/coderprasukj"
               target="_blank"
@@ -46,12 +46,12 @@ const Platforms = () => {
             >
               <Icon
                 icon={codechefIcon}
-                height={32}
-                width={32}
+                height={42}
+                width={42}
                 style={{ marginBottom: 8 }}
               />
             </a>
-          </li>
+          </li> */}
           <li className="social-icons">
             <a
               href="https://leetcode.com/heisenbuggs/"
@@ -62,9 +62,9 @@ const Platforms = () => {
             >
               <Icon
                 icon={leetcodeIcon}
-                height={28}
-                width={28}
-                style={{ marginBottom: 8 }}
+                height={38}
+                width={38}
+                style={{ marginTop: 3 }}
               />
             </a>
           </li>
@@ -78,9 +78,8 @@ const Platforms = () => {
             >
               <Icon
                 icon={linkedinFill}
-                height={30}
-                width={30}
-                style={{ marginBottom: 8 }}
+                height={35}
+                width={35}
               />
             </a>
           </li>
@@ -94,9 +93,9 @@ const Platforms = () => {
             >
               <Icon
                 icon={geeksforgeeksIcon}
-                height={28}
-                width={28}
-                style={{ marginBottom: 8 }}
+                height={38}
+                width={38}
+                style={{ marginTop: 4 }}
               />
             </a>
           </li>
