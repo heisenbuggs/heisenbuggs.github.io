@@ -1,24 +1,44 @@
 import Particles from "react-tsparticles";
 
 const lineParticles = {
-  fpsLimit: 60,
+  background: {
+    image: "",
+    position: "",
+    repeat: "",
+    size: "",
+    opacity: 0
+  },
+  backgroundMask: {
+    composite: "destination-out",
+    cover: {
+      color: {
+        value: "#fff"
+      },
+      opacity: 1
+    },
+    enable: false
+  },
+  fullScreen: {
+    enable: true,
+    zIndex: -1
+  },
+  fpsLimit: 120,
   interactivity: {
     events: {
-      onClick: {
-        enable: true,
-        mode: "push",
-      },
       onHover: {
         enable: true,
-        mode: "grab",
+        mode: ["connect", "grab"],
+      },
+      onClick: {
+          enable: false,
       },
       resize: true,
     },
     modes: {
       bubble: {
         distance: 400,
-        duration: 2,
-        opacity: 0.8,
+        duration: 1,
+        opacity: 0.2,
         size: 40,
       },
       push: {
@@ -32,13 +52,13 @@ const lineParticles = {
   },
   particles: {
     color: {
-      value: "#fff",
+      value: "#ffffff",
     },
     links: {
-      color: "#fff",
+      color: "#ffffff",
       distance: 150,
       enable: true,
-      opacity: 0.1,
+      opacity: 0.2,
       width: 1,
     },
     collisions: {
@@ -48,8 +68,8 @@ const lineParticles = {
       direction: "none",
       enable: true,
       outMode: "bounce",
-      random: false,
-      speed: .5,
+      random: true,
+      speed: 3,
       straight: false,
     },
     number: {
@@ -63,7 +83,7 @@ const lineParticles = {
       value: 0.5,
     },
     shape: {
-      type: "circle",
+      type: "circle"
     },
     size: {
       random: true,

@@ -19,8 +19,8 @@ const Home = () => {
     <section className="sect">
       <Animate to="1" from="0" attributeName="opacity">
         <Container fluid className="home-section">
-          <StarsParticle />
           <LineParticle />
+          <StarsParticle />
           <Container className="home-content">
             <Row>
               <Col md={12} lg={7} className="home-header">
@@ -29,8 +29,7 @@ const Home = () => {
                 <h1 className="heading-name">
                   I'm
                   <strong className="main-name">{" PRASUK"}</strong>
-                  <strong className="main-name surname">{" JAIN"}</strong>
-                  .
+                  <strong className="main-name surname">{" JAIN"}</strong>.
                 </h1>
 
                 <Container className="typeContainer">
