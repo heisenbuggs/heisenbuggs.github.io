@@ -2,7 +2,7 @@ import React from 'react';
 
 import Typewriter from 'typewriter-effect';
 
-const Type = () => {
+const TypeWriterComponent = () => {
   return (
     <Typewriter
       options={{
@@ -21,4 +21,4 @@ const Type = () => {
   );
 };
 
-export default Type;
+export default TypeWriterComponent;

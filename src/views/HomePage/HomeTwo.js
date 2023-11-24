@@ -1,24 +1,21 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
-import React from 'react';
+import React from "react";
 
-import {
-  Col,
-  Container,
-  Row,
-} from 'react-bootstrap';
+import { Col, Container, Row } from "react-bootstrap";
+import Tilt from "react-parallax-tilt";
 
-import doozieLogoImg from '../../assets/doozieLogoImg.png';
-import growwLogoImg from '../../assets/growwLogoImg.png';
-import nobrokerLogoImg from '../../assets/nobrokerLogoImg.png';
-import phonepeLogoImg from '../../assets/phonepeLogoImg.png';
+import doozieLogoImg from "../../assets/doozieLogoImg.png";
+import growwLogoImg from "../../assets/growwLogoImg.png";
+import nobrokerLogoImg from "../../assets/nobrokerLogoImg.png";
+import phonepeLogoImg from "../../assets/phonepeLogoImg.png";
 
 const HomeTwo = () => {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col xs={12} lg={8} className="home-about-description">
+          <Col xs={12} xl={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
@@ -51,40 +48,55 @@ const HomeTwo = () => {
               <i>
                 <b className="purple">
                   {" "}
-                  React, Spring Boot, ExpressJS and React Native .
+                  React, Spring Boot, NestJS
+                </b>
+                &nbsp; and
+                <b className="purple">
+                  {" "}
+                  ExpressJS .
                 </b>
               </i>
             </p>
           </Col>
-          <Col xs={12} lg={4} className="company">
-            <img
-              src={phonepeLogoImg}
-              className="img-fluid face"
-              alt="Phonepe"
-              title="PhonePe"
-            />
-            <img
-              src={growwLogoImg}
-              className="img-fluid face"
-              alt="Groww"
-              title="Groww"
-            />
-            <img
-              src={nobrokerLogoImg}
-              className="img-fluid face"
-              alt="NoBroker"
-              title="NoBroker"
-            />
-            <img
-              src={doozieLogoImg}
-              className="img-fluid face"
-              alt="Doozie"
-              title="Doozie"
-            />
+          <Col xs={12} xl={4} className="company">
+            <Tilt
+              className="parallax-effect-img"
+              tiltMaxAngleX={10}
+              tiltMaxAngleY={30}
+              perspective={800}
+              transitionSpeed={1500}
+              scale={1.1}
+              gyroscope={true}
+            >
+              <img
+                src={phonepeLogoImg}
+                className="img-fluid face"
+                alt="Phonepe"
+                title="PhonePe"
+              />
+              <img
+                src={growwLogoImg}
+                className="img-fluid face"
+                alt="Groww"
+                title="Groww"
+              />
+              <img
+                src={nobrokerLogoImg}
+                className="img-fluid face"
+                alt="NoBroker"
+                title="NoBroker"
+              />
+              <img
+                src={doozieLogoImg}
+                className="img-fluid face"
+                alt="Doozie"
+                title="Doozie"
+              />
+            </Tilt>
           </Col>
         </Row>
         <Row>
-          <Col md={12} className="home-about-social">
+          <Col xs={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me

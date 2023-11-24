@@ -8,18 +8,18 @@ import Animate from "react-smooth";
 
 import homeLogo from "../../assets/main.png";
 import Greeting from "../../components/GreetingComponent";
-import Type from "../../components/TypewriterComponent";
 import HomeTwo from "./HomeTwo";
 import LineParticle from "../../components/LineParticle";
 import Platforms from "./Platforms";
 import StarsParticle from "../../components/StarsParticle";
+import TypeWriterComponent from "../../components/TypewriterComponent";
 
 const Home = () => {
   return (
     <section className="sect">
       <Animate to="1" from="0" attributeName="opacity">
-        <StarsParticle />
         <Container fluid className="home-section">
+          <StarsParticle />
           <LineParticle />
           <Container className="home-content">
             <Row>
@@ -34,7 +34,7 @@ const Home = () => {
 
                 <Container className="typeContainer">
                   <h6>
-                    <Type />
+                    <TypeWriterComponent />
                   </h6>
                 </Container>
                 <Platforms />

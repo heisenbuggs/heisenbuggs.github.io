@@ -559,10 +559,13 @@ const starsParticle = {
 const StarsParticle = () => {
   const particlesInit = (main) => {
     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
+    console.log("particles init in stars")
   };
 
   const particlesLoaded = (container) => {
+    console.log("particles loaded in stars")
   };
+
   return (
     <Particles
       id="tsparticles"

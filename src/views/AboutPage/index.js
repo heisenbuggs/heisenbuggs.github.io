@@ -7,12 +7,12 @@ import { Col, Container, Row } from "react-bootstrap";
 import Animate from "react-smooth";
 
 import laptopImg from "../../assets/about.png";
-import Github from "../../components/GithubCalendar";
 import Techstack from "../../ui/TechstackCard";
 import data from "../../utils/constants/TechList.json";
 import Aboutcard from "./AboutCard";
 import StarsParticle from "../../components/StarsParticle";
 import LineParticle from "../../components/LineParticle";
+import GithubCalendar from "../../components/GithubCalendar";
 
 const About = () => {
   let lang = data.languages,
@@ -84,7 +84,7 @@ const About = () => {
               />
             ))}
           </Row>
-          <Github />
+          <GithubCalendar />
         </Container>
       </Container>
     </Animate>

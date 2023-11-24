@@ -5,7 +5,7 @@ import React from 'react';
 import { Row } from 'react-bootstrap';
 import GitHubCalendar from 'react-github-calendar';
 
-const Github = () => {
+const GithubCalendar = () => {
   const colourTheme = {
     light : ["#ecd9fc", "#d292f3", "#b246ea", "#9a19dc", "#8115b9"],
     dark : ["#ecd9fc", "#d292f3", "#b246ea", "#9a19dc", "#8115b9"]
@@ -27,4 +27,4 @@ const Github = () => {
   );
 };
 
-export default Github;
+export default GithubCalendar;

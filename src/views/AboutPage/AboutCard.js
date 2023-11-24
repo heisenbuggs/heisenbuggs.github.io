@@ -1,7 +1,7 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
-import React from 'react';
-import Card from 'react-bootstrap/Card';
+import React from "react";
+import Card from "react-bootstrap/Card";
 
 const AboutCard = () => {
   return (
@@ -12,10 +12,9 @@ const AboutCard = () => {
             Hi Everyone, I am <span className="purple">Prasuk Jain </span>
             from <span className="purple"> Bhopal, India.</span>
             <br />
-            {
-              "I am working as Software Engineer at PhonePe, Pune."
-            }
-            <br />
+            <p>
+              I am working as Software Engineer at <b>PhonePe, Pune.</b>
+            </p>
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
@@ -27,7 +26,8 @@ const AboutCard = () => {
               <i className="far fa-hand-point-right"></i> Reading Novels
             </li>
             <li className="about-activity">
-              <i className="far fa-hand-point-right"></i> Learning Stocks and Finance
+              <i className="far fa-hand-point-right"></i> Learning Stocks and
+              Finance
             </li>
           </ul>
 

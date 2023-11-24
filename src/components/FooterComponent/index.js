@@ -8,13 +8,10 @@ import {
   Container,
   Row,
 } from 'react-bootstrap';
-// import Particles from 'react-particles-js';
 import Animate from 'react-smooth/lib/Animate';
 
 import heartIcon from '../../assets/heart_shape.png';
 import socialLinks from '../../utils/constants/footerSocialLinks';
-import particles from '../LineParticle';
-import particleParams from '../StarsParticle';
 
 const Footer = () => {
   let date = new Date();

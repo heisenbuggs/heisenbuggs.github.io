@@ -53,6 +53,11 @@
       "hoverIcon": "devicon-spring-plain-wordmark"
     },
     {
+      "name": "Nest.js",
+      "iconName": "devicon-nestjs-plain",
+      "hoverIcon": "devicon-nestjs-plain-wordmark"
+    },
+    {
       "name": "Node.js",
       "iconName": "devicon-nodejs-plain",
       "hoverIcon": "devicon-nodejs-plain-wordmark"
@@ -87,7 +92,7 @@
     {
       "name": "VSCode",
       "iconName": "devicon-vscode-plain",
-      "hoverIcon": "devicon-vscode-plain"
+      "hoverIcon": "devicon-vscode-plain-wordmark"
     },
     {
       "name": "Git",
@@ -95,9 +100,9 @@
       "hoverIcon": "devicon-git-plain-wordmark"
     },
     {
-      "name": "Heroku",
-      "iconName": "devicon-heroku-original",
-      "hoverIcon": "devicon-heroku-original-wordmark"
+      "name": "Docker",
+      "iconName": "devicon-docker-plain",
+      "hoverIcon": "devicon-docker-plain-wordmark"
     },
     {
       "name": "Postman",
