@@ -39,28 +39,33 @@
 }
 
 .heading {
-  font-size: 3em;
+  font-size: 3.25em;
   padding-left: 45px;
 }
 
 .heading-name {
-  font-size: 3em;
+  font-size: 3.35em;
   padding-left: 45px;
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #a75fe9;
 }
 
 .Typewriter__wrapper {
   font-size: 2.5em;
-  color: #be6adf;
+  color: #a75fe9;
   font-weight: 600;
 }
 
 .Typewriter__cursor {
   font-size: 2.4em;
-  color: #b562d6;
+  color: white;
+}
+
+.homeImgContainer {
+  padding-bottom: 20px;
+  margin-top: 20px;
 }
 
 @media (max-width: 767px) {
@@ -85,7 +90,6 @@
   text-align: left;
 }
 
-
 @media (max-width: 552px) {
   .home-platforms-social-links li:nth-child(7) {
     visibility: hidden;
@@ -106,6 +110,19 @@
   .face {
     position: relative;
     top: 8.75rem;
+  }
+
+  .homeImgContainer {
+    margin-top: 100px;
+    padding-bottom: 20px;
+  }
+
+  .heading {
+    font-size: 5em;
+  }
+
+  .heading-name {
+    font-size: 6em;
   }
 }
 

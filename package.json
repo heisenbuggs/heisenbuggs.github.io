@@ -4,6 +4,7 @@
   "version": "2.0.0",
   "private": true,
   "dependencies": {
+    "@font/nunito": "^1.0.3",
     "@iconify-icons/akar-icons": "^1.1.30",
     "@iconify-icons/cib": "^1.1.0",
     "@iconify-icons/simple-icons": "^1.1.59",

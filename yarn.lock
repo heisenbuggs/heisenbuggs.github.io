@@ -1311,6 +1311,11 @@
   resolved "https://registry.npmjs.org/@eslint/js/-/js-8.54.0.tgz"
   integrity sha512-ut5V+D+fOoWPgGGNj83GGjnntO39xDy6DWxO0wb7Jp3DcMX0TfIqdzHF85VTQkerdyGmuuMD9AKAo5KiNlf/AQ==
 
+"@font/nunito@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.npmjs.org/@font/nunito/-/nunito-1.0.3.tgz"
+  integrity sha512-RMctdzfEvYwRkh4jHPqYGkrlSSaeuldoN7aS7dMcmCthcAgFM/SLNHzQ/1uvWpPFAVpCQ4qtdco0b4DBn0HbAA==
+
 "@humanwhocodes/config-array@^0.11.13":
   version "0.11.13"
   resolved "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.11.13.tgz"

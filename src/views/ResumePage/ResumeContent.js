@@ -11,7 +11,7 @@ const ResumeContent = (props) => {
       {props.content && (
         <ul style={{ marginLeft: -15 }}>
           {props.content.map((value, index) => (
-            <li key={index}>&#x2747; {value}</li>
+            <li key={index}>✧ {value}</li>
           ))}
         </ul>
       )}

@@ -29,7 +29,8 @@ const Home = () => {
                 <h1 className="heading-name">
                   I'm
                   <strong className="main-name">{" PRASUK"}</strong>
-                  <strong className="main-name surname">{" JAIN."}</strong>
+                  <strong className="main-name surname">{" JAIN"}</strong>
+                  .
                 </h1>
 
                 <Container className="typeContainer">
@@ -40,7 +41,7 @@ const Home = () => {
                 <Platforms />
               </Col>
 
-              <Col md={12} lg={5} style={{ paddingBottom: 20, marginTop: 20 }}>
+              <Col md={12} lg={5} className="homeImgContainer">
                 <img src={homeLogo} alt="home pic" className="img-fluid" />
               </Col>
             </Row>
