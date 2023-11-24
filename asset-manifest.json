@@ -1,13 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.2a577fb3.css",
-    "main.js": "/static/js/main.84335465.js",
+    "main.js": "/static/js/main.f864a540.js",
     "static/js/787.4575ad64.chunk.js": "/static/js/787.4575ad64.chunk.js",
     "static/media/main.png": "/static/media/main.2dd9ead500c18e573807.png",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/Gfg.png": "/static/media/Gfg.92d51c122c2ba6feab21.png",
-    "static/media/growwLogoImg.png": "/static/media/growwLogoImg.94fe176a54a10591bdb9.png",
     "static/media/Resume_PrasukJain.pdf": "/static/media/Resume_PrasukJain.48dbb53e1710e91b7751.pdf",
     "static/media/doozieLogoImg.png": "/static/media/doozieLogoImg.e137e9eed476b99ec0dc.png",
     "static/media/udemy.png": "/static/media/udemy.7f4e23d7bdd759fbab71.png",
@@ -17,15 +16,16 @@
     "static/media/heart_shape.png": "/static/media/heart_shape.f4816c41f9934edc82db.png",
     "static/media/Coursera.png": "/static/media/Coursera.b9e0c5f91b3125e30930.png",
     "static/media/phonepeLogoImg.png": "/static/media/phonepeLogoImg.0e7c5ba97029e35a0867.png",
+    "static/media/growwLogoImg.png": "/static/media/growwLogoImg.578c956be66af61e91c1.png",
     "static/media/quiziify.png": "/static/media/quiziify.993d4666d8ecf05b1dde.png",
     "static/media/tick.mp3": "/static/media/tick.a830ac2f517b551eac3f.mp3",
     "index.html": "/index.html",
     "main.2a577fb3.css.map": "/static/css/main.2a577fb3.css.map",
-    "main.84335465.js.map": "/static/js/main.84335465.js.map",
+    "main.f864a540.js.map": "/static/js/main.f864a540.js.map",
     "787.4575ad64.chunk.js.map": "/static/js/787.4575ad64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a577fb3.css",
-    "static/js/main.84335465.js"
+    "static/js/main.f864a540.js"
   ]
 }
