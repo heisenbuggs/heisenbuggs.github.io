@@ -19,8 +19,8 @@ const Home = () => {
     <section className="sect">
       <Animate to="1" from="0" attributeName="opacity">
         <Container fluid className="home-section">
-          <LineParticle />
           <StarsParticle />
+          <LineParticle />
           <Container className="home-content">
             <Row>
               <Col md={12} lg={7} className="home-header">
