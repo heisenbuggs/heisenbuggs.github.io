@@ -52,7 +52,7 @@ const Resume = () => {
               <h3 className="resume-heading">Education</h3>
               <Resumecontent
                 title="B.Tech. Electronics & Communication"
-                date="2018 - Present"
+                date="Aug 2018 - Jun 2022"
                 institute="Shri G.S. Institute of Technology & Science, Indore"
               />
               <Resumecontent
