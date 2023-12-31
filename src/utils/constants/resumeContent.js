@@ -4,7 +4,8 @@ export const WORK_EXPERIENCE = [
         company: "PhonePe",
         date: "Jul 2022 - Present",
         content: [
-
+            "Led the Digigold pod and many diverse projects, including Nexus utility service development, optimizing systems for efficiency and disaster recovery.",
+            "Worked closely with product team for offline redeem transaction of gold which helped to increase the user base by 15% for gold using Dropwizard and Java."
         ]
     },
     {
@@ -12,7 +13,8 @@ export const WORK_EXPERIENCE = [
         company: "PhonePe",
         date: "Jan 2022 - Jul 2022",
         content: [
-            "Fixed Bugs and improved the code quality using Java and Dropwizard.",
+            "Worked in development of gold transfer feature to help operations team to resolve customer queries using Dropwizard, Java and MySQL.",
+            "Developed dashboards using React and CSS for data science team for visually enriched experience to work for developing better tools using the data."
         ]
     }, 
     {
@@ -20,8 +22,8 @@ export const WORK_EXPERIENCE = [
         company: "Groww",
         date: "Aug 2021 - Jan 2022",
         content: [
-            "Built Dashboard with better UI and UX for smooth FD Order/Redeem Flow.",
-            "Developed server-side rendered Financial Calculators for the users for smooth investment and growth purposes using React, Redux, CSS and TypeScript."
+            "Orchestrated the creation of Fixed Deposits, streamlining the order/redeem process.",
+            "Engineered Financial Calculators using React, Redux, CSS and TypeScript for an elevated user experience in investment and growth interactions."
         ]
     }, 
     {
@@ -31,15 +33,6 @@ export const WORK_EXPERIENCE = [
         content: [
             "Implemented SEO friendly Web application with Next.js, Tailwind and CSS which increased user interaction providing 40% efficient search rate.",
             "Built an RM statistics Dashboard webapp from scratch using React, Chart.js, CSS and Reactstrap which enhanced productivity of 1200 RMs.",
-        ]
-    },
-    {
-        title: "Software Development Intern",
-        company: "Doozie",
-        date: "August 2020 - November 2020",
-        content: [
-            "Developed user-friendly website from scratch using ReactJS and Material UI that increased user clicks subsequently customer visits by 30%.",
-            "Fixed bugs and implemented enhancements from existing website that improved web functionality.",
         ]
     }
 ];
