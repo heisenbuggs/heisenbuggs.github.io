@@ -1,31 +1,24 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './HeaderComponent.css';
-import '../HamburgerComponent/HamBurgerComponent.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./HeaderComponent.css";
+import "../HamburgerComponent/HamBurgerComponent.css";
 
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-import {
-  NavbarBrand,
-  NavItem,
-  NavLink,
-} from 'react-bootstrap';
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
-import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
-import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import { CgUserlane } from 'react-icons/cg';
-import { FaCodeBranch } from 'react-icons/fa';
-import {
-  IoDocumentText,
-  IoHome,
-} from 'react-icons/io5';
-import { Link } from 'react-router-dom';
+import { NavbarBrand, NavItem, NavLink } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
+import Container from "react-bootstrap/Container";
+import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
+import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import { CgUserlane } from "react-icons/cg";
+import { FaCodeBranch } from "react-icons/fa";
+import { IoDocumentText, IoHome } from "react-icons/io5";
+import { Link } from "react-router-dom";
 import pdf from "../../assets/Resume_PrasukJain.pdf";
 
-import audio from '../../assets/tick.mp3';
-import Hamburger from '../HamburgerComponent';
+import audio from "../../assets/tick.mp3";
+import Hamburger from "../HamburgerComponent";
 
 const HeaderComponent = () => {
   const [expand, updateExpanded] = useState(false);
@@ -33,7 +26,7 @@ const HeaderComponent = () => {
 
   const start = () => {
     new Audio(audio).play();
-  }
+  };
 
   const scrollHandler = () => {
     if (window.scrollY >= 70) {
@@ -65,13 +58,13 @@ const HeaderComponent = () => {
             start();
           }}
         >
-          <Hamburger expand={expand} onClick={start}/>
+          <Hamburger expand={expand} onClick={start} />
         </NavbarToggle>
         <NavbarCollapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
             <NavItem>
               <NavLink as={Link} to="/" onClick={() => updateExpanded(false)}>
-              <IoHome /> Home
+                <IoHome className="headerIcon" /> Home
               </NavLink>
             </NavItem>
             <NavItem>
@@ -80,7 +73,7 @@ const HeaderComponent = () => {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <CgUserlane /> About
+                <CgUserlane className="headerIcon" /> About
               </NavLink>
             </NavItem>
             <NavItem>
@@ -89,7 +82,7 @@ const HeaderComponent = () => {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <FaCodeBranch /> Projects
+                <FaCodeBranch className="headerIcon" /> Projects
               </NavLink>
             </NavItem>
             <NavItem>
@@ -98,7 +91,7 @@ const HeaderComponent = () => {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <IoDocumentText /> Resume
+                <IoDocumentText className="headerIcon" /> Resume
               </NavLink>
             </NavItem>
 
@@ -112,12 +105,7 @@ const HeaderComponent = () => {
               </Button>
             </NavItem>
             <NavItem className="fork-btn">
-              <Button
-                target="_blank"
-                href={pdf}
-                className="fork-btn-inner"
-                
-              >
+              <Button target="_blank" href={pdf} className="fork-btn-inner">
                 <i className="fa fa-download"></i>
               </Button>
             </NavItem>

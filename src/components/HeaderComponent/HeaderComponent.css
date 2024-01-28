@@ -149,3 +149,7 @@
 .fork-btn-inner::after {
     display: none;
 }
+
+.headerIcon {
+    margin-bottom: 5px;
+}
