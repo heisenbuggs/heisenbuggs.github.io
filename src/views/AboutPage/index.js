@@ -15,9 +15,11 @@ import LineParticle from "../../components/LineParticle";
 import GithubCalendar from "../../components/GithubCalendar";
 
 const About = () => {
-  let lang = data.languages,
-    tech = data.tech,
-    tools = data.tools;
+  let languagesList = data.languages,
+    frontendTechList = data.frontendTech,
+    backendTechList = data.backendTech,
+    databaseList = data.database,
+    toolsList = data.tools;
 
   return (
     <Animate to="1" from="0" attributeName="opacity">
@@ -55,7 +57,7 @@ const About = () => {
             <strong className="purple">Skills</strong> does."
           </p>
           <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-            {lang.map((item) => (
+            {languagesList.map((item) => (
               <Techstack
                 key={item.name}
                 iconName={item.iconName}
@@ -64,7 +66,25 @@ const About = () => {
             ))}
           </Row>
           <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-            {tech.map((item) => (
+            {backendTechList.map((item) => (
+              <Techstack
+                key={item.name}
+                iconName={item.iconName}
+                hoverIcon={item.hoverIcon}
+              />
+            ))}
+          </Row>
+          <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+            {frontendTechList.map((item) => (
+              <Techstack
+                key={item.name}
+                iconName={item.iconName}
+                hoverIcon={item.hoverIcon}
+              />
+            ))}
+          </Row>
+          <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+            {databaseList.map((item) => (
               <Techstack
                 key={item.name}
                 iconName={item.iconName}
@@ -76,7 +96,7 @@ const About = () => {
             <strong className="purple">Tools</strong> I use
           </h1>
           <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-            {tools.map((item) => (
+            {toolsList.map((item) => (
               <Techstack
                 key={item.name}
                 iconName={item.iconName}

@@ -5,7 +5,7 @@ const socialLinks = [
     },
     {
         link: 'https://twitter.com/thereal_prasuk',
-        icon: 'fab fa-twitter fa-lg'
+        icon: 'fa-brands fa-x-twitter fa-lg'
     },
     {
         link: 'https://www.linkedin.com/in/prasukjain04/',

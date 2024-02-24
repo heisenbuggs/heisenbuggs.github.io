@@ -5,6 +5,8 @@ import React, { useState } from 'react';
 import { Col } from 'react-bootstrap';
 
 const Techstack = (prop) => {
+  // Do not want to remove the hover functionality  
+  // and hence just changing icon name
   const [hover, setHover] = useState(false);
   return (
     <div>
@@ -12,7 +14,7 @@ const Techstack = (prop) => {
         xs={3}
         md={2}
         className="tech-icons"
-        onMouseEnter={() => setHover(true)}
+        onMouseEnter={() => setHover(false)} // set this as true to enable hover effect
         onMouseLeave={() => setHover(false)}
       >
         {(!hover || !prop.hoverIcon) && (

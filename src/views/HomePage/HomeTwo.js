@@ -109,7 +109,7 @@ const HomeTwo = () => {
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <i className="fab fa-facebook-f"></i>
+                  <i className="fab fa-facebook-f fa-lg"></i>
                 </a>
               </li>
               <li className="social-icons">
@@ -119,7 +119,7 @@ const HomeTwo = () => {
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <i className="fab fa-twitter"></i>
+                  <i className="fa-brands fa-x-twitter fa-lg"></i>
                 </a>
               </li>
               <li className="social-icons">
@@ -129,7 +129,7 @@ const HomeTwo = () => {
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <i className="fab fa-linkedin-in"></i>
+                  <i className="fab fa-linkedin-in fa-lg"></i>
                 </a>
               </li>
               <li className="social-icons">
@@ -139,7 +139,7 @@ const HomeTwo = () => {
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <i className="fab fa-instagram"></i>
+                  <i className="fab fa-instagram fa-lg"></i>
                 </a>
               </li>
             </ul>
