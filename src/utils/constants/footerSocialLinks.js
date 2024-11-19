@@ -4,7 +4,7 @@ const socialLinks = [
         icon: 'fab fa-facebook-f fa-lg'
     },
     {
-        link: 'https://twitter.com/thereal_prasuk',
+        link: 'https://x.com/prasuksjain',
         icon: 'fa-brands fa-x-twitter fa-lg'
     },
     {
@@ -12,7 +12,7 @@ const socialLinks = [
         icon: 'fab fa-linkedin-in fa-lg'
     },
     {
-        link: 'https://www.instagram.com/thereal_prasuk/',
+        link: 'https://www.instagram.com/prasuksjain/',
         icon: 'fab fa-instagram fa-lg'
     },
 ];

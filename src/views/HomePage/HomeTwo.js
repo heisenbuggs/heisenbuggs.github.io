@@ -114,7 +114,7 @@ const HomeTwo = () => {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/thereal_prasuk"
+                  href="https://x.com/prasuksjain"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -134,7 +134,7 @@ const HomeTwo = () => {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/thereal_prasuk/"
+                  href="https://www.instagram.com/prasuksjain/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
