@@ -36,7 +36,7 @@ const Resume = () => {
             </Button>
           </Row>
           <Row className="resume">
-            <Col md={6} className="resume-left">
+            <Col md={12} className="resume-left">
               <h3 className="resume-heading">Experience</h3>
               {WORK_EXPERIENCE.map((item) => (
                 <Resumecontent
@@ -65,16 +65,10 @@ const Resume = () => {
                 date="May 2016"
                 institute="St. Mary's Convent Sr. Sec. School, Bhopal"
               />
+            </Col>
+            <Col md={6} className="resume-right">
               <h3 className="resume-heading">Achievements</h3>
               <Resumecontent title="" content={ACHIEVEMENTS} />
-              <h3 className="resume-heading">Extracurricular Activities</h3>
-              <Resumecontent
-                title="Campus Ambassdor, GeeksforGeeks"
-                content={[
-                  "Promoted the activities and coding culture of the company within the campus.",
-                  // "Motivated students to write technical articles on GeeksforGeeks’s website and take courses for developing their skills.",
-                ]}
-              />
             </Col>
           </Row>
           <Row style={{ justifyContent: "center", position: "relative" }}>

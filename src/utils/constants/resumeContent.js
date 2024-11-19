@@ -4,8 +4,11 @@ export const WORK_EXPERIENCE = [
         company: "PhonePe",
         date: "Jul 2022 - Present",
         content: [
-            "Led the Digigold pod and many diverse projects, including Nexus utility service development, optimizing systems for efficiency and disaster recovery.",
-            "Worked closely with product team for offline redeem transaction of gold which helped to increase the user base by 15% for gold using Dropwizard and Java."
+            "Led end-to-end delivery of key features in the Recharges and Digital Goods POD, from solution design to development and production deployment, ensuring seamless integration and functionality.",
+            "Enhanced user retention by 40% through the successful implementation of the Recharge Reminders Improvement feature, ensuring accurate reminder delivery across all accounts for users approaching recharge expiry.",
+            "Boosted annual revenue by 44% by implementing the Devotion via BBPS feature, which involved onboarding new billers and meeting compliance standards to support PII data encryption.",
+            "Increased TPV by 72% through the implementation of a feature to raise transaction limits for CLP brands, driving greater user engagement and financial throughput.",
+            "Orchestrated the Caratlane integration for Digigold, overseeing development from inception to completion, resulting in a 75 Cr monthly TPV increase through expanded user base engagement and commission growth."
         ]
     },
     {
@@ -13,8 +16,8 @@ export const WORK_EXPERIENCE = [
         company: "PhonePe",
         date: "Jan 2022 - Jul 2022",
         content: [
-            "Worked in development of gold transfer feature to help operations team to resolve customer queries using Dropwizard, Java and MySQL.",
-            "Developed dashboards using React and CSS for data science team for visually enriched experience to work for developing better tools using the data."
+            "Engineered the end-to-end development of the Gold Transfer feature using Dropwizard, Java, and RabbitMQ, enabling the operations team to efficiently resolve customer queries and support gifting purposes, improving customer satisfaction by 30%.",
+            "Developed dashboards using React, CSS and TypeScript for data science team for visually enriched experience to work for developing better tools using the data."
         ]
     }, 
     {
@@ -22,8 +25,8 @@ export const WORK_EXPERIENCE = [
         company: "Groww",
         date: "Aug 2021 - Jan 2022",
         content: [
-            "Orchestrated the creation of Fixed Deposits, streamlining the order/redeem process.",
-            "Engineered Financial Calculators using React, Redux, CSS and TypeScript for an elevated user experience in investment and growth interactions."
+            "Led end-to-end creation of Fixed Deposits screens, streamlining the order and redemption process for approximately 1 million daily active users.",
+            "Developed a systematic framework for Financial Calculators using React, Redux, CSS and TypeScript, enhancing the user experience in investment interactions and driving customer retention on the platform."
         ]
     }, 
     {
