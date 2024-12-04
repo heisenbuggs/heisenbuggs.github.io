@@ -7,8 +7,8 @@ import GitHubCalendar from 'react-github-calendar';
 
 const GithubCalendar = () => {
   const colourTheme = {
-    light : ["#ecd9fc", "#d292f3", "#b246ea", "#9a19dc", "#8115b9"],
-    dark : ["#ecd9fc", "#d292f3", "#b246ea", "#9a19dc", "#8115b9"]
+    light : ["#f2e7f8", "#d292f3", "#b246ea", "#9a19dc", "#8115b9"],
+    dark : ["#f2e7f8", "#d292f3", "#b246ea", "#9a19dc", "#8115b9"]
   };
 
   return (
