@@ -5,10 +5,10 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Tilt from "react-parallax-tilt";
 
-import doozieLogoImg from "../../assets/doozieLogoImg.png";
 import growwLogoImg from "../../assets/growwLogoImg.png";
 import nobrokerLogoImg from "../../assets/nobrokerLogoImg.png";
 import phonepeLogoImg from "../../assets/phonepeLogoImg.png";
+import linkedinLogoImg from "../../assets/linkedinLogoImg.png";
 
 const HomeTwo = () => {
   return (
@@ -69,6 +69,12 @@ const HomeTwo = () => {
               gyroscope={true}
             >
               <img
+                src={linkedinLogoImg}
+                className="img-fluid face"
+                alt="LinkedIn"
+                title="LinkedIn"
+              />
+              <img
                 src={phonepeLogoImg}
                 className="img-fluid face"
                 alt="Phonepe"
@@ -85,12 +91,6 @@ const HomeTwo = () => {
                 className="img-fluid face"
                 alt="NoBroker"
                 title="NoBroker"
-              />
-              <img
-                src={doozieLogoImg}
-                className="img-fluid face"
-                alt="Doozie"
-                title="Doozie"
               />
             </Tilt>
           </Col>
