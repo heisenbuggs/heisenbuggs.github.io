@@ -13,7 +13,7 @@ const AboutCard = () => {
             from <span className="purple"> Bhopal, India.</span>
             <br />
             <p>
-              I am working as Software Engineer at <b>PhonePe, Pune.</b>
+              I am working as Software Engineer at <b>LinkedIn, Bengaluru.</b>
             </p>
             <br />
             Apart from coding, some other activities that I love to do!

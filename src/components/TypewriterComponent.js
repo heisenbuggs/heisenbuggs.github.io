@@ -8,11 +8,9 @@ const TypeWriterComponent = () => {
       className="typeWriter"
       options={{
         strings: [
-          "SWE @PhonePe",
-          "SWE Intern @PhonePe",
-          "ex-Intern @Groww",
-          "ex-Intern @NoBroker",
-          "Full - Stack Developer",
+          "SWE @LinkedIn",
+          "ex - SWE @PhonePe",
+          "Software Developer",
         ],
         autoStart: true,
         loop: true,

@@ -1,8 +1,14 @@
 export const WORK_EXPERIENCE = [
     {
         title: "Software Engineer",
+        company: "LinkedIn",
+        date: "Mar 2025 - Present",
+        content: []
+    },
+    {
+        title: "Software Engineer",
         company: "PhonePe",
-        date: "Jul 2022 - Present",
+        date: "Jul 2022 - Feb 2025",
         content: [
             "Led end-to-end delivery of key features in the Recharges and Digital Goods POD, from solution design to development and production deployment, ensuring seamless integration and functionality.",
             "Enhanced user retention by 40% through the successful implementation of the Recharge Reminders Improvement feature, ensuring accurate reminder delivery across all accounts for users approaching recharge expiry.",
