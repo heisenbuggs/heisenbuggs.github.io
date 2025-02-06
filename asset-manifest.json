@@ -1,13 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.489b7a0d.css",
-    "main.js": "/static/js/main.165b7f10.js",
+    "main.js": "/static/js/main.c0d8343a.js",
     "static/js/787.4575ad64.chunk.js": "/static/js/787.4575ad64.chunk.js",
     "static/media/main.png": "/static/media/main.2dd9ead500c18e573807.png",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/Gfg.png": "/static/media/Gfg.92d51c122c2ba6feab21.png",
-    "static/media/doozieLogoImg.png": "/static/media/doozieLogoImg.e137e9eed476b99ec0dc.png",
     "static/media/udemy.png": "/static/media/udemy.7f4e23d7bdd759fbab71.png",
     "static/media/Resume_PrasukJain.pdf": "/static/media/Resume_PrasukJain.f7f62153a61206f89856.pdf",
     "static/media/codeditor.jpg": "/static/media/codeditor.584b47d4ee5664910dde.jpg",
@@ -21,11 +20,11 @@
     "static/media/tick.mp3": "/static/media/tick.a830ac2f517b551eac3f.mp3",
     "index.html": "/index.html",
     "main.489b7a0d.css.map": "/static/css/main.489b7a0d.css.map",
-    "main.165b7f10.js.map": "/static/js/main.165b7f10.js.map",
+    "main.c0d8343a.js.map": "/static/js/main.c0d8343a.js.map",
     "787.4575ad64.chunk.js.map": "/static/js/787.4575ad64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.489b7a0d.css",
-    "static/js/main.165b7f10.js"
+    "static/js/main.c0d8343a.js"
   ]
 }
