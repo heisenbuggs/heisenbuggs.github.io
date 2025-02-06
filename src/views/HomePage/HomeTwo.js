@@ -33,12 +33,14 @@ const HomeTwo = () => {
               </i>
               <br />
               <br />
-              My current focus is on&nbsp;
+              Deep diving into&nbsp;
               <i>
                 <b className="purple">
-                  Full - Stack Development, Data Structures and Algorithms .
+                  System Design, Data Structures and Algorithms
+                  {" "}
                 </b>
               </i>
+              to break down complex problems and sharpen my understanding of scalable architectures.
               <br />
               <br />I also apply my passion for developing products with
               <i>
@@ -48,14 +50,16 @@ const HomeTwo = () => {
               <i>
                 <b className="purple">
                   {" "}
-                  React, Spring Boot, NestJS
+                  React, Spring Boot
                 </b>
                 &nbsp; and
                 <b className="purple">
                   {" "}
-                  ExpressJS .
+                  ExpressJS 
+                  {" "}
                 </b>
               </i>
+                turning ideas into awesome products.
             </p>
           </Col>
           <Col xs={12} xl={4} className="company">
