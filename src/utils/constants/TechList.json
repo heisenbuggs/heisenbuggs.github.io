@@ -11,15 +11,17 @@
       "hoverIcon": "devicon-java-plain-wordmark colored"
     },
     {
+      "name": "Go",
+      "iconName": "devicon-go-original-wordmark",
+      "hoverIcon": "devicon-go-original-wordmark colored"
+    },
+    {
       "name": "JavaScript",
       "iconName": "devicon-javascript-plain",
       "hoverIcon": "devicon-javascript-plain colored"
-    },
-    {
-      "name": "TypeScript",
-      "iconName": "devicon-typescript-plain",
-      "hoverIcon": "devicon-typescript-plain colored"
-    },
+    }
+  ],
+  "frontendTech": [
     {
       "name": "HTML",
       "iconName": "devicon-html5-plain-wordmark",
@@ -29,9 +31,7 @@
       "name": "CSS",
       "iconName": "devicon-css3-plain-wordmark",
       "hoverIcon": "devicon-css3-plain-wordmark colored"
-    }
-  ],
-  "frontendTech": [
+    },
     {
       "name": "React",
       "iconName": "devicon-react-original-wordmark",
@@ -41,16 +41,6 @@
       "name": "Redux",
       "iconName": "devicon-redux-original",
       "hoverIcon": "devicon-redux-original colored"
-    },
-    {
-      "name": "Next.js",
-      "iconName": "devicon-nextjs-original-wordmark",
-      "hoverIcon": "devicon-nextjs-original-wordmark"
-    },
-    {
-      "name": "Bootstrap",
-      "iconName": "devicon-bootstrap-plain-wordmark",
-      "hoverIcon": "devicon-bootstrap-plain-wordmark colored"
     }
   ],
   "backendTech": [
@@ -60,23 +50,18 @@
       "hoverIcon": "devicon-spring-original-wordmark colored"
     },
     {
-      "name": "Nest.js",
-      "iconName": "devicon-nestjs-original-wordmark",
-      "hoverIcon": "devicon-nestjs-original-wordmark colored"
+      "name": "GraphQL",
+      "iconName": "devicon-graphql-plain-wordmark",
+      "hoverIcon": "devicon-graphql-plain-wordmark colored"
     },
     {
-      "name": "Node.js",
-      "iconName": "devicon-nodejs-plain-wordmark",
-      "hoverIcon": "devicon-nodejs-plain-wordmark colored"
-    },
-    {
-      "name": "Express",
-      "iconName": "devicon-express-original-wordmark",
-      "hoverIcon": "devicon-express-original-wordmark"
+      "name": "Redis",
+      "iconName": "devicon-redis-plain-wordmark",
+      "hoverIcon": "devicon-redis-plain-wordmark colored"
     },
     {
       "name": "Kafka",
-      "iconName": "devicon-apachekafka-original-wordmark",
+      "iconName": "devicon-apachekafka-original",
       "hoverIcon": "devicon-apachekafka-original-wordmark"
     },
     {
@@ -92,22 +77,17 @@
       "hoverIcon": "devicon-mongodb-plain-wordmark colored"
     },
     {
-      "name": "MySQL",
-      "iconName": "devicon-mysql-plain-wordmark",
-      "hoverIcon": "devicon-mysql-plain-wordmark colored"
+      "name": "PostgresSQL",
+      "iconName": "devicon-postgresql-plain-wordmark",
+      "hoverIcon": "devicon-postgresql-plain-wordmark colored"
     },
     {
-      "name": "MariaDB",
-      "iconName": "devicon-mariadb-original-wordmark",
-      "hoverIcon": "devicon-mysql-plain-wordmark"
+      "name": "ElasticSearch",
+      "iconName": "devicon-elasticsearch-plain",
+      "hoverIcon": "devicon-elasticsearch-plain"
     }
   ],
   "tools": [
-    {
-      "name": "Ubuntu",
-      "iconName": "devicon-ubuntu-plain-wordmark",
-      "hoverIcon": "devicon-ubuntu-plain-wordmark"
-    },
     {
       "name": "IntelliJIdea",
       "iconName": "devicon-intellij-plain",
@@ -137,16 +117,6 @@
       "name": "Postman",
       "iconName": "devicon-postman-plain",
       "hoverIcon": "devicon-postman-plain-wordmark"
-    },
-    {
-      "name": "StackOverflow",
-      "iconName": "devicon-stackoverflow-plain-wordmark",
-      "hoverIcon": "devicon-stackoverflow-plain-wordmark"
-    },
-    {
-      "name": "Firebase",
-      "iconName": "devicon-firebase-plain-wordmark",
-      "hoverIcon": "devicon-firebase-plain-wordmark"
     }
   ]
 }

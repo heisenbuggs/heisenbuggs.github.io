@@ -10,7 +10,7 @@ export const WORK_EXPERIENCE = [
         company: "PhonePe",
         date: "Jul 2022 - Feb 2025",
         content: [
-            "Led end-to-end delivery of key features in the Recharges and Digital Goods POD, from solution design to development and production deployment, ensuring seamless integration and functionality.",
+            "Led end-to-end delivery of key features in the Recharges and Digital Goods Team, from solution design to development and production deployment, ensuring seamless integration and functionality.",
             "Enhanced user retention by 40% through the successful implementation of the Recharge Reminders Improvement feature, ensuring accurate reminder delivery across all accounts for users approaching recharge expiry.",
             "Boosted annual revenue by 44% by implementing the Devotion via BBPS feature, which involved onboarding new billers and meeting compliance standards to support PII data encryption.",
             "Increased TPV by 72% through the implementation of a feature to raise transaction limits for CLP brands, driving greater user engagement and financial throughput.",
