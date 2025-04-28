@@ -15,7 +15,7 @@ const HomeTwo = () => {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col xs={12} xl={8} className="home-about-description">
+          <Col xs={12} xl={7} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
@@ -62,7 +62,7 @@ const HomeTwo = () => {
                 turning ideas into awesome products.
             </p>
           </Col>
-          <Col xs={12} xl={4} className="company">
+          <Col xs={12} xl={5} className="company">
             <Tilt
               className="parallax-effect-img"
               tiltMaxAngleX={10}
@@ -108,7 +108,7 @@ const HomeTwo = () => {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://www.facebook.com/thereal.prasuk/"
+                  href="https://www.facebook.com/prasuksjain/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -128,7 +128,7 @@ const HomeTwo = () => {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/prasukjain04/"
+                  href="https://www.linkedin.com/in/prasuksjain/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

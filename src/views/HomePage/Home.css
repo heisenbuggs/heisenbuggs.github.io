@@ -173,8 +173,8 @@
 .home-platforms-icons {
   position: relative;
   display: inline-block;
-  width: 50px;
-  height: 50px;
+  width: 55px;
+  height: 55px;
   text-align: center;
   font-size: 1.2em;
   line-height: 43px;
@@ -193,19 +193,19 @@
   border-radius: 50%;
   background: #fff;
   transition: 0.1s;
-  transform: scale(0.1);
+  transform: scale(0.3);
   z-index: -20;
 }
 
 .home-platforms-icons:hover {
-  transform: scale(1.4);
+  transform: scale(1.5);
   box-shadow: 0 0 1px #fff;
 }
 
 .home-platforms-icons:hover {
   color: #87209e;
-  box-shadow: 0 0 30px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  box-shadow: 0 0 30px #c40bee;
+  text-shadow: 0 0 2px #c40bee;
 }
 
 .home-social-icons {

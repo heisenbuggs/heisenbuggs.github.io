@@ -30,28 +30,12 @@ const Platforms = () => {
             >
               <Icon
                 icon={githubFill}
-                height={42}
-                width={42}
+                height={48}
+                width={47}
                 style={{ marginTop: 3 }}
               />
             </a>
           </li>
-          {/* <li className="social-icons">
-            <a
-              href="https://www.codechef.com/users/coderprasukj"
-              target="_blank"
-              rel="noreferrer"
-              className="icon-colour home-platforms-icons"
-              title="CodeChef"
-            >
-              <Icon
-                icon={codechefIcon}
-                height={42}
-                width={42}
-                style={{ marginBottom: 8 }}
-              />
-            </a>
-          </li> */}
           <li className="social-icons">
             <a
               href="https://leetcode.com/heisenbuggs/"
@@ -62,15 +46,15 @@ const Platforms = () => {
             >
               <Icon
                 icon={leetcodeIcon}
-                height={38}
-                width={38}
+                height={48}
+                width={45}
                 style={{ marginTop: 3 }}
               />
             </a>
           </li>
           <li className="social-icons">
             <a
-              href="https://www.linkedin.com/in/prasukjain04/"
+              href="https://www.linkedin.com/in/prasuksjain/"
               target="_blank"
               rel="noreferrer"
               className="icon-colour home-platforms-icons"
@@ -78,8 +62,8 @@ const Platforms = () => {
             >
               <Icon
                 icon={linkedinFill}
-                height={35}
-                width={35}
+                height={52}
+                width={40}
               />
             </a>
           </li>
@@ -93,9 +77,9 @@ const Platforms = () => {
             >
               <Icon
                 icon={geeksforgeeksIcon}
-                height={38}
-                width={38}
-                style={{ marginTop: 4 }}
+                height={48}
+                width={42}
+                style={{ marginTop: 6 }}
               />
             </a>
           </li>

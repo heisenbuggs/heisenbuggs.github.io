@@ -16,7 +16,7 @@ const platformLinks = [
     },
     {
         title: 'LinkedIn',
-        link: 'https://www.linkedin.com/in/prasukjain04/',
+        link: 'https://www.linkedin.com/in/prasuksjain/',
         icon: 'linkedinFill',
     },
     {
